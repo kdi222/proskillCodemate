@@ -1,0 +1,20 @@
+CREATE TABLE `mdl_customcert` (
+  `id` bigint(10) NOT NULL AUTO_INCREMENT,
+  `course` bigint(10) NOT NULL DEFAULT 0,
+  `templateid` bigint(10) NOT NULL DEFAULT 0,
+  `name` varchar(255) NOT NULL DEFAULT '',
+  `intro` longtext DEFAULT NULL,
+  `introformat` smallint(4) NOT NULL DEFAULT 0,
+  `requiredtime` bigint(10) NOT NULL DEFAULT 0,
+  `verifyany` bigint(10) NOT NULL DEFAULT 0,
+  `deliveryoption` varchar(255) DEFAULT NULL,
+  `emailstudents` tinyint(1) NOT NULL DEFAULT 0,
+  `emailteachers` tinyint(1) NOT NULL DEFAULT 0,
+  `emailothers` longtext DEFAULT NULL,
+  `protection` varchar(255) NOT NULL DEFAULT '',
+  `language` varchar(20) DEFAULT NULL,
+  `timecreated` bigint(10) NOT NULL DEFAULT 0,
+  `timemodified` bigint(10) NOT NULL DEFAULT 0,
+  PRIMARY KEY (`id`),
+  KEY `mdl_cust_tem_ix` (`templateid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=COMPRESSED COMMENT='Defines customcerts'

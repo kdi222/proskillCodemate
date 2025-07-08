@@ -1,0 +1,56 @@
+define(['jquery', 'core/ajax', 'core/str'], function($, ajax, str) {
+    return {
+        init: function() {
+            $('#id_courseid').change(function() {
+                var courseid = $(this).val();
+                var studentSelect = $('#id_studentid');
+                studentSelect.empty(); // Clear existing options
+
+                // Fetch students via AJAX
+                ajax.call([{
+                    methodname: 'local_mockstatus_get_students',
+                    args: { courseid: courseid },
+                    done: function(response) {
+                        if (response.length > 0) {
+                            $.each(response, function(index, student) {
+                                studentSelect.append(new Option(student.name, student.id));
+                            });
+                        } else {
+                            str.get_string('nostudents', 'local_mockstatus').then(function(nostudents) {
+                                studentSelect.append(new Option(nostudents, ''));
+                            });
+                        }
+                    },
+                    fail: function() {
+                        str.get_string('errorfetchingstudents', 'local_mockstatus').then(function(errorfetchingstudents) {
+                            alert(errorfetchingstudents);
+                        });
+                    }
+                }]);
+            });
+            
+            $('#id_studentid').change(function() {
+                var studentid = $(this).val();
+                $("#student_id").val(studentid);
+            });
+
+            $('#id_question_add_fields').on('click', function() {
+                var repeatCount = $('.mform .fitem:has(#id_question_0)').length;
+                var newElement = $('.mform .fitem:has(#id_question_0)').first().clone();
+                newElement.find('input').each(function() {
+                    var name = $(this).attr('name').replace('[0]', '[' + repeatCount + ']');
+                    $(this).attr('name', name).attr('id', 'id_' + name).val('');
+                });
+                newElement.find('.remove_question').on('click', function() {
+                    $(this).closest('.fitem').remove();
+                });
+                $('.mform .fitem:has(#id_question_0)').last().after(newElement);
+            });
+
+            // Add event listener for removing question
+            $('.mform').on('click', '.remove_question', function() {
+                $(this).closest('.fitem').remove();
+            });
+        }
+    };
+});

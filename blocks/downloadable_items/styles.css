@@ -1,0 +1,98 @@
+/* Container for resource items */
+.block_downloadable_items .resource-item {
+    display: flex;
+    align-items: flex-start;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+
+.block_downloadable_items .resource-item:hover {
+    transform: translateY(-2px);
+}
+
+/* Icon styling */
+.block_downloadable_items .resource-icon img {
+    width: 36px;
+    height: 36px;
+    margin-right: 14px;
+    margin-top: 4px;
+}
+
+/* Title + description container */
+.block_downloadable_items .resource-info {
+    flex: 1;
+}
+
+.block_downloadable_items .resource-title {
+    font-weight: 600;
+    font-size: 15px;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+}
+
+.block_downloadable_items .resource-description {
+    font-size: 13px;
+    color: #555;
+    line-height: 1.4;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* External link icon */
+.block_downloadable_items .resource-link {
+    background: #FFFFFF;
+    width: 35px;
+    height: 35px;
+    top: 22px;
+    left: 452px;
+    border-radius: 10px;
+    border-width: 1px;
+    padding-left: 10px;
+    gap: 20px;
+    border: 1px solid var(--Grays-Gray-5, rgba(229, 229, 234, 1));
+}
+
+.block_downloadable_items .resource-link a {
+    color: #811AFF;
+    font-size: 18px;
+    width: 14px;
+    height: 14px;
+    text-decoration: none;
+}
+
+/* View more button */
+.block_downloadable_items .view-more-wrapper {
+    text-align: center;
+    margin-top: 18px;
+}
+
+.block_downloadable_items .view-more-button {
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 18px;
+    background-color: var(--bgcolor);
+    color: var(--sidebar) !important;
+    font-weight: 500 !important;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.2s;
+}
+
+.block_downloadable_items .view-more-button:hover {
+    background-color: var(--bgcolor);
+    color: var(--sidebar);
+}
+
+/* No documents message */
+.block_downloadable_items .no-documents {
+    text-align: center;
+    font-style: italic;
+    color: #999;
+    padding: 16px;
+}

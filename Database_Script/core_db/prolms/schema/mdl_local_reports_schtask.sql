@@ -1,0 +1,22 @@
+CREATE TABLE `mdl_local_reports_schtask` (
+  `id` bigint(10) NOT NULL AUTO_INCREMENT,
+  `plugin` varchar(160) DEFAULT NULL,
+  `taskname` varchar(50) DEFAULT NULL,
+  `callfile` varchar(255) DEFAULT NULL,
+  `callfunction` varchar(255) DEFAULT NULL,
+  `lastruntime` bigint(10) NOT NULL,
+  `nextruntime` bigint(10) NOT NULL,
+  `blocking` tinyint(1) NOT NULL,
+  `minute` varchar(50) DEFAULT NULL,
+  `hour` varchar(50) DEFAULT NULL,
+  `day` varchar(50) DEFAULT NULL,
+  `month` varchar(50) DEFAULT NULL,
+  `dayofweek` varchar(50) DEFAULT NULL,
+  `timezone` varchar(50) DEFAULT NULL,
+  `runsremaining` bigint(10) DEFAULT NULL,
+  `startdate` bigint(10) DEFAULT NULL,
+  `enddate` bigint(10) DEFAULT NULL,
+  `customized` tinyint(1) NOT NULL,
+  `blocked` bigint(10) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=COMPRESSED COMMENT='lms reports schedule TASK'

@@ -1,0 +1,2202 @@
+1	question	multichoice_sortorder	1
+2	question	truefalse_sortorder	2
+3	question	match_sortorder	3
+4	question	shortanswer_sortorder	4
+5	question	numerical_sortorder	5
+6	question	essay_sortorder	6
+7	core_competency	enabled	1
+8	moodlecourse	visible	1
+9	moodlecourse	downloadcontentsitedefault	0
+10	moodlecourse	participantsperpage	20
+11	moodlecourse	format	topics
+12	moodlecourse	maxsections	52
+13	moodlecourse	numsections	4
+14	moodlecourse	hiddensections	1
+15	moodlecourse	coursedisplay	0
+16	moodlecourse	courseenddateenabled	1
+17	moodlecourse	courseduration	31536000
+18	moodlecourse	lang	
+19	moodlecourse	newsitems	5
+20	moodlecourse	showgrades	1
+21	moodlecourse	showreports	0
+22	moodlecourse	showactivitydates	1
+23	moodlecourse	maxbytes	0
+24	moodlecourse	enablecompletion	1
+25	moodlecourse	showcompletionconditions	1
+26	moodlecourse	groupmode	0
+27	moodlecourse	groupmodeforce	0
+28	backup	loglifetime	30
+29	backup	backup_general_users	1
+30	backup	backup_general_users_locked	
+31	backup	backup_general_anonymize	0
+32	backup	backup_general_anonymize_locked	
+33	backup	backup_general_role_assignments	1
+34	backup	backup_general_role_assignments_locked	
+35	backup	backup_general_activities	1
+36	backup	backup_general_activities_locked	
+37	backup	backup_general_blocks	1
+38	backup	backup_general_blocks_locked	
+39	backup	backup_general_files	1
+40	backup	backup_general_files_locked	
+41	backup	backup_general_filters	1
+42	backup	backup_general_filters_locked	
+43	backup	backup_general_comments	1
+44	backup	backup_general_comments_locked	
+45	backup	backup_general_badges	1
+46	backup	backup_general_badges_locked	
+47	backup	backup_general_calendarevents	1
+48	backup	backup_general_calendarevents_locked	
+49	backup	backup_general_userscompletion	1
+50	backup	backup_general_userscompletion_locked	
+51	backup	backup_general_logs	0
+52	backup	backup_general_logs_locked	
+53	backup	backup_general_histories	0
+54	backup	backup_general_histories_locked	
+55	backup	backup_general_questionbank	1
+56	backup	backup_general_questionbank_locked	
+57	backup	backup_general_groups	1
+58	backup	backup_general_groups_locked	
+59	backup	backup_general_competencies	1
+60	backup	backup_general_competencies_locked	
+61	backup	backup_general_contentbankcontent	1
+62	backup	backup_general_contentbankcontent_locked	
+63	backup	backup_general_xapistate	1
+64	backup	backup_general_xapistate_locked	
+65	backup	backup_general_legacyfiles	1
+66	backup	backup_general_legacyfiles_locked	
+67	backup	import_general_maxresults	10
+68	backup	import_general_duplicate_admin_allowed	0
+69	backup	backup_import_permissions	0
+70	backup	backup_import_permissions_locked	
+71	backup	backup_import_activities	1
+72	backup	backup_import_activities_locked	
+73	backup	backup_import_blocks	1
+74	backup	backup_import_blocks_locked	
+75	backup	backup_import_filters	1
+76	backup	backup_import_filters_locked	
+77	backup	backup_import_calendarevents	1
+78	backup	backup_import_calendarevents_locked	
+79	backup	backup_import_questionbank	1
+80	backup	backup_import_questionbank_locked	
+81	backup	backup_import_groups	1
+82	backup	backup_import_groups_locked	
+83	backup	backup_import_competencies	1
+84	backup	backup_import_competencies_locked	
+85	backup	backup_import_contentbankcontent	1
+86	backup	backup_import_contentbankcontent_locked	
+87	backup	backup_import_legacyfiles	1
+88	backup	backup_import_legacyfiles_locked	
+89	backup	backup_auto_active	0
+90	backup	backup_auto_weekdays	0000000
+91	backup	backup_auto_hour	0
+92	backup	backup_auto_minute	0
+93	backup	backup_auto_storage	0
+94	backup	backup_auto_destination	
+95	backup	backup_auto_max_kept	1
+96	backup	backup_auto_delete_days	0
+97	backup	backup_auto_min_kept	0
+98	backup	backup_shortname	0
+99	backup	backup_auto_skip_hidden	1
+100	backup	backup_auto_skip_modif_days	30
+101	backup	backup_auto_skip_modif_prev	0
+102	backup	backup_auto_users	1
+103	backup	backup_auto_role_assignments	1
+104	backup	backup_auto_activities	1
+105	backup	backup_auto_blocks	1
+106	backup	backup_auto_files	1
+107	backup	backup_auto_filters	1
+108	backup	backup_auto_comments	1
+109	backup	backup_auto_badges	1
+110	backup	backup_auto_calendarevents	1
+111	backup	backup_auto_userscompletion	1
+112	backup	backup_auto_logs	0
+113	backup	backup_auto_histories	0
+114	backup	backup_auto_questionbank	1
+115	backup	backup_auto_groups	1
+116	backup	backup_auto_competencies	1
+117	backup	backup_auto_contentbankcontent	1
+118	backup	backup_auto_xapistate	1
+119	backup	backup_auto_legacyfiles	1
+120	restore	restore_general_users	1
+121	restore	restore_general_users_locked	
+122	restore	restore_general_enrolments	1
+123	restore	restore_general_enrolments_locked	
+124	restore	restore_general_role_assignments	1
+125	restore	restore_general_role_assignments_locked	
+126	restore	restore_general_permissions	1
+127	restore	restore_general_permissions_locked	
+128	restore	restore_general_activities	1
+129	restore	restore_general_activities_locked	
+130	restore	restore_general_blocks	1
+131	restore	restore_general_blocks_locked	
+132	restore	restore_general_filters	1
+133	restore	restore_general_filters_locked	
+134	restore	restore_general_comments	1
+135	restore	restore_general_comments_locked	
+136	restore	restore_general_badges	1
+137	restore	restore_general_badges_locked	
+138	restore	restore_general_calendarevents	1
+139	restore	restore_general_calendarevents_locked	
+140	restore	restore_general_userscompletion	1
+141	restore	restore_general_userscompletion_locked	
+142	restore	restore_general_logs	1
+143	restore	restore_general_logs_locked	
+144	restore	restore_general_histories	1
+145	restore	restore_general_histories_locked	
+146	restore	restore_general_groups	1
+147	restore	restore_general_groups_locked	
+148	restore	restore_general_competencies	1
+149	restore	restore_general_competencies_locked	
+150	restore	restore_general_contentbankcontent	1
+151	restore	restore_general_contentbankcontent_locked	
+152	restore	restore_general_xapistate	1
+153	restore	restore_general_xapistate_locked	
+154	restore	restore_general_legacyfiles	1
+155	restore	restore_general_legacyfiles_locked	
+156	restore	restore_merge_overwrite_conf	0
+157	restore	restore_merge_overwrite_conf_locked	
+158	restore	restore_merge_course_fullname	1
+159	restore	restore_merge_course_fullname_locked	
+160	restore	restore_merge_course_shortname	1
+161	restore	restore_merge_course_shortname_locked	
+162	restore	restore_merge_course_startdate	1
+163	restore	restore_merge_course_startdate_locked	
+164	restore	restore_replace_overwrite_conf	0
+165	restore	restore_replace_overwrite_conf_locked	
+166	restore	restore_replace_course_fullname	1
+167	restore	restore_replace_course_fullname_locked	
+168	restore	restore_replace_course_shortname	1
+169	restore	restore_replace_course_shortname_locked	
+170	restore	restore_replace_course_startdate	1
+171	restore	restore_replace_course_startdate_locked	
+172	restore	restore_replace_keep_roles_and_enrolments	0
+173	restore	restore_replace_keep_roles_and_enrolments_locked	
+174	restore	restore_replace_keep_groups_and_groupings	0
+175	restore	restore_replace_keep_groups_and_groupings_locked	
+176	backup	backup_async_message_users	0
+177	backup	backup_async_message_subject	Moodle {operation} completed successfully
+178	backup	backup_async_message	Your {operation} (ID: {backupid}) has completed successfully. You can access it here: <a href="{link}">{link}</a>.
+179	analytics	modeinstruction	
+180	analytics	percentonline	0
+181	analytics	typeinstitution	
+182	analytics	levelinstitution	
+183	analytics	predictionsprocessor	\\mlbackend_php\\processor
+184	analytics	defaulttimesplittingsevaluation	\\core\\analytics\\time_splitting\\quarters_accum,\\core\\analytics\\time_splitting\\quarters,\\core\\analytics\\time_splitting\\single_range
+185	analytics	modeloutputdir	
+186	analytics	onlycli	1
+187	analytics	modeltimelimit	1200
+188	analytics	calclifetime	35
+189	antivirus	notifyemail	
+190	antivirus	notifylevel	2
+191	antivirus	threshold	1200
+192	antivirus	enablequarantine	0
+193	antivirus	quarantinetime	2419200
+194	cachestore_apcu	testperformance	0
+195	cachestore_redis	test_server	
+196	cachestore_redis	test_password	
+197	cachestore_redis	test_ttl	0
+198	question_preview	behaviour	deferredfeedback
+199	question_preview	correctness	1
+200	question_preview	marks	2
+201	question_preview	markdp	2
+202	question_preview	feedback	1
+203	question_preview	generalfeedback	1
+204	question_preview	rightanswer	1
+205	question_preview	history	0
+206	tool_task	enablerunnow	1
+207	adminpresets	sensiblesettings	recaptchapublickey@@none, recaptchaprivatekey@@none, googlemapkey3@@none, secretphrase@@url, cronremotepassword@@none, smtpuser@@none, smtppass@none, proxypassword@@none, quizpassword@@quiz, allowedip@@none, blockedip@@none, dbpass@@logstore_database, messageinbound_hostpass@@none, bind_pw@@auth_cas, pass@@auth_db, bind_pw@@auth_ldap, dbpass@@enrol_database, bind_pw@@enrol_ldap, server_password@@search_solr, ssl_keypassword@@search_solr, alternateserver_password@@search_solr, alternatessl_keypassword@@search_solr, test_password@@cachestore_redis, password@@mlbackend_python, badges_badgesalt@@none, calendar_exportsalt@@none
+576	theme_boost	unaddableblocks	navigation,settings,course_list,section_links
+577	theme_boost	preset	default.scss
+578	theme_boost	presetfiles	
+579	theme_boost	backgroundimage	
+580	theme_boost	loginbackgroundimage	
+581	theme_boost	brandcolor	
+582	theme_boost	scsspre	
+583	theme_boost	scss	
+584	theme_classic	navbardark	0
+585	theme_classic	unaddableblocks	
+586	theme_classic	preset	default.scss
+587	theme_classic	presetfiles	
+588	theme_classic	backgroundimage	
+589	theme_classic	loginbackgroundimage	
+590	theme_classic	brandcolor	
+591	theme_classic	scsspre	
+592	theme_classic	scss	
+593	theme_moove	logo	
+594	theme_moove	favicon	
+595	theme_moove	preset	default.scss
+596	theme_moove	presetfiles	
+597	theme_moove	loginbgimg	
+598	theme_moove	brandcolor	#0f47ad
+599	theme_moove	secondarymenucolor	#FCA311
+600	theme_moove	fontsite	Poppins
+601	theme_moove	enablecourseindex	1
+602	theme_moove	scsspre	
+603	theme_moove	scss	
+604	theme_moove	googleanalytics	
+605	theme_moove	disableteacherspic	1
+606	theme_moove	slidercount	0
+607	theme_moove	displaymarketingbox	1
+608	theme_moove	numbersfrontpage	1
+609	theme_moove	faqcount	0
+610	theme_moove	website	
+611	theme_moove	mobile	
+612	theme_moove	mail	
+613	theme_moove	facebook	
+614	theme_moove	twitter	
+615	theme_moove	linkedin	
+616	theme_moove	youtube	
+617	theme_moove	instagram	
+618	theme_moove	whatsapp	
+619	theme_moove	telegram	
+620	core_admin	logo	
+621	core_admin	logocompact	
+622	core_admin	favicon	
+623	core_admin	coursecolor1	#81ecec
+624	core_admin	coursecolor2	#74b9ff
+625	core_admin	coursecolor3	#a29bfe
+626	core_admin	coursecolor4	#dfe6e9
+627	core_admin	coursecolor5	#00b894
+628	core_admin	coursecolor6	#0984e3
+629	core_admin	coursecolor7	#b2bec3
+630	core_admin	coursecolor8	#fdcb6e
+631	core_admin	coursecolor9	#fd79a8
+632	core_admin	coursecolor10	#6c5ce7
+633	core_competency	pushcourseratingstouserplans	1
+642	theme_moove	marketingheading	Awesome App Features
+643	theme_moove	marketingcontent	<p>Moove is a Moodle template based on Boost with modern and creative design.</p>
+644	theme_moove	marketing1icon	
+645	theme_moove	marketing1heading	Lorem
+646	theme_moove	marketing1content	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+647	theme_moove	marketing2icon	
+648	theme_moove	marketing2heading	Lorem
+649	theme_moove	marketing2content	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+650	theme_moove	marketing3icon	
+651	theme_moove	marketing3heading	Lorem
+652	theme_moove	marketing3content	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+653	theme_moove	marketing4icon	
+654	theme_moove	marketing4heading	Lorem
+655	theme_moove	marketing4content	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+656	theme_moove	numbersfrontpagecontent	<h2>Trusted by 25,000+ happy customers.</h2>\
+<p>With lots of unique blocks, you can easily build <br class="d-none d-sm-block d-md-none d-xl-block">a page without coding. Build your next website <br class="d-none d-sm-block d-md-none d-xl-block">within few minutes.</p>
+657	antivirus_clamav	version	2023042400
+658	availability_completion	version	2023042400
+659	availability_date	version	2023042400
+660	availability_grade	version	2023042400
+661	availability_group	version	2023042400
+662	availability_grouping	version	2023042400
+663	availability_profile	version	2023042400
+664	qtype_calculated	version	2023042400
+665	qtype_calculatedmulti	version	2023042400
+666	qtype_calculatedsimple	version	2023042400
+667	qtype_ddimageortext	version	2023042400
+668	qtype_ddmarker	version	2023042400
+669	qtype_ddwtos	version	2023042400
+670	qtype_description	version	2023042400
+671	qtype_essay	version	2023042400
+672	qtype_gapselect	version	2023042400
+673	qtype_match	version	2023042400
+674	qtype_missingtype	version	2023042400
+675	qtype_multianswer	version	2023042400
+676	qtype_multichoice	version	2023042400
+677	qtype_numerical	version	2023042400
+678	qtype_random	version	2023042400
+679	qtype_randomsamatch	version	2023042400
+680	qtype_shortanswer	version	2023042400
+681	qtype_truefalse	version	2023042400
+682	mod_assign	version	2023042400
+683	mod_bigbluebuttonbn	version	2023042400
+685	mod_book	version	2023042400
+686	mod_chat	version	2023042400
+687	mod_choice	version	2023042400
+688	mod_customcert	version	2023042402
+689	mod_data	version	2023042401
+690	mod_feedback	version	2023042400
+692	mod_folder	version	2023042400
+694	mod_forum	version	2023042400
+695	mod_glossary	version	2023042400
+696	mod_h5pactivity	version	2023042401
+697	mod_imscp	version	2023042400
+699	mod_label	version	2023042400
+700	mod_lesson	version	2023042400
+701	mod_lti	version	2023042400
+703	mod_lti	kid	9f2de096d6a9b30a73b9
+704	mod_page	version	2023042400
+706	mod_quiz	version	2023042400
+707	mod_resource	version	2023042400
+708	mod_scorm	version	2023042400
+709	mod_securepdf	version	2023041001
+711	mod_survey	version	2023042400
+713	mod_url	version	2023042400
+715	mod_wiki	version	2023042400
+717	mod_workshop	version	2023042400
+718	mod_zoom	version	2023082400
+720	auth_cas	version	2023042400
+722	auth_db	version	2023042400
+724	auth_email	version	2023042400
+725	auth_ldap	version	2023042400
+727	auth_lti	version	2023042400
+728	auth_manual	version	2023042400
+729	auth_mnet	version	2023042400
+731	auth_nologin	version	2023042400
+732	auth_none	version	2023042400
+733	auth_oauth2	version	2023042400
+734	auth_shibboleth	version	2023042400
+736	auth_webservice	version	2023042400
+737	calendartype_gregorian	version	2023042400
+738	customfield_checkbox	version	2023042400
+739	customfield_date	version	2023042400
+740	customfield_select	version	2023042400
+741	customfield_text	version	2023042400
+742	customfield_textarea	version	2023042400
+743	enrol_category	version	2023042400
+745	enrol_cohort	version	2023042400
+746	enrol_database	version	2023042400
+748	enrol_fee	version	2023042400
+749	enrol_flatfile	version	2023042400
+751	enrol_flatfile	map_1	manager
+752	enrol_flatfile	map_2	coursecreator
+753	enrol_flatfile	map_3	editingteacher
+754	enrol_flatfile	map_4	teacher
+755	enrol_flatfile	map_5	student
+756	enrol_flatfile	map_6	guest
+757	enrol_flatfile	map_7	user
+758	enrol_flatfile	map_8	frontpage
+759	enrol_guest	version	2023042400
+760	enrol_imsenterprise	version	2023042400
+762	enrol_ldap	version	2023042400
+764	enrol_lti	version	2023042400
+766	enrol_lti	lti_13_kid	55d98de66de069fa8743
+767	enrol_manual	version	2023042400
+769	enrol_meta	version	2023042400
+771	enrol_mnet	version	2023042400
+772	enrol_paypal	version	2023042400
+773	enrol_self	version	2023042400
+775	message_airnotifier	version	2023042400
+777	message	airnotifier_provider_enrol_flatfile_flatfile_enrolment_locked	0
+778	message	airnotifier_provider_enrol_imsenterprise_imsenterprise_enrolment_locked	0
+779	message	airnotifier_provider_enrol_manual_expiry_notification_locked	0
+780	message	airnotifier_provider_enrol_paypal_paypal_enrolment_locked	0
+781	message	airnotifier_provider_enrol_self_expiry_notification_locked	0
+782	message	airnotifier_provider_mod_assign_assign_notification_locked	0
+783	message	airnotifier_provider_mod_bigbluebuttonbn_recording_ready_locked	0
+784	message	airnotifier_provider_mod_bigbluebuttonbn_instance_updated_locked	0
+785	message	airnotifier_provider_mod_feedback_submission_locked	0
+786	message	airnotifier_provider_mod_feedback_message_locked	0
+787	message	airnotifier_provider_mod_forum_posts_locked	0
+788	message	message_provider_mod_forum_posts_enabled	email,airnotifier
+789	message	airnotifier_provider_mod_forum_digests_locked	0
+790	message	airnotifier_provider_mod_lesson_graded_essay_locked	0
+791	message	message_provider_mod_lesson_graded_essay_enabled	email,airnotifier
+792	message	airnotifier_provider_mod_quiz_submission_locked	0
+793	message	airnotifier_provider_mod_quiz_confirmation_locked	0
+794	message	message_provider_mod_quiz_confirmation_enabled	email,airnotifier
+795	message	airnotifier_provider_mod_quiz_attempt_overdue_locked	0
+796	message	message_provider_mod_quiz_attempt_overdue_enabled	email,airnotifier
+797	message	airnotifier_provider_mod_quiz_attempt_grading_complete_locked	0
+798	message	message_provider_mod_quiz_attempt_grading_complete_enabled	email,airnotifier
+799	message	airnotifier_provider_moodle_newlogin_locked	0
+800	message	message_provider_moodle_newlogin_enabled	email,airnotifier
+801	message	airnotifier_provider_moodle_notices_locked	0
+802	message	airnotifier_provider_moodle_errors_locked	0
+803	message	airnotifier_provider_moodle_availableupdate_locked	0
+804	message	airnotifier_provider_moodle_instantmessage_locked	0
+805	message	airnotifier_provider_moodle_backup_locked	0
+806	message	airnotifier_provider_moodle_courserequested_locked	0
+807	message	airnotifier_provider_moodle_courserequestapproved_locked	0
+808	message	message_provider_moodle_courserequestapproved_enabled	email,airnotifier
+809	message	airnotifier_provider_moodle_courserequestrejected_locked	0
+810	message	message_provider_moodle_courserequestrejected_enabled	email,airnotifier
+811	message	airnotifier_provider_moodle_coursecompleted_locked	0
+812	message	message_provider_moodle_coursecompleted_enabled	email,airnotifier
+813	message	airnotifier_provider_moodle_coursecontentupdated_locked	0
+814	message	message_provider_moodle_coursecontentupdated_enabled	popup,email,airnotifier
+815	message	airnotifier_provider_moodle_badgerecipientnotice_locked	0
+816	message	message_provider_moodle_badgerecipientnotice_enabled	popup,email,airnotifier
+817	message	airnotifier_provider_moodle_badgecreatornotice_locked	0
+818	message	airnotifier_provider_moodle_competencyplancomment_locked	0
+819	message	airnotifier_provider_moodle_competencyusercompcomment_locked	0
+820	message	airnotifier_provider_moodle_insights_locked	0
+821	message	message_provider_moodle_insights_enabled	popup,email,airnotifier
+822	message	airnotifier_provider_moodle_messagecontactrequests_locked	0
+823	message	message_provider_moodle_messagecontactrequests_enabled	email,airnotifier
+824	message	airnotifier_provider_moodle_asyncbackupnotification_locked	0
+825	message	airnotifier_provider_moodle_gradenotifications_locked	0
+826	message	airnotifier_provider_moodle_infected_locked	0
+827	message	airnotifier_provider_moodle_reportbuilderschedule_locked	0
+828	message_email	version	2023042400
+830	message	email_provider_enrol_flatfile_flatfile_enrolment_locked	0
+831	message	message_provider_enrol_flatfile_flatfile_enrolment_enabled	email
+832	message	email_provider_enrol_imsenterprise_imsenterprise_enrolment_locked	0
+833	message	message_provider_enrol_imsenterprise_imsenterprise_enrolment_enabled	email
+834	message	email_provider_enrol_manual_expiry_notification_locked	0
+835	message	message_provider_enrol_manual_expiry_notification_enabled	email
+836	message	email_provider_enrol_paypal_paypal_enrolment_locked	0
+837	message	message_provider_enrol_paypal_paypal_enrolment_enabled	email
+838	message	email_provider_enrol_self_expiry_notification_locked	0
+839	message	message_provider_enrol_self_expiry_notification_enabled	email
+840	message	email_provider_mod_assign_assign_notification_locked	0
+841	message	message_provider_mod_assign_assign_notification_enabled	email
+842	message	email_provider_mod_bigbluebuttonbn_recording_ready_locked	0
+843	message	message_provider_mod_bigbluebuttonbn_recording_ready_enabled	email
+844	message	email_provider_mod_bigbluebuttonbn_instance_updated_locked	0
+845	message	message_provider_mod_bigbluebuttonbn_instance_updated_enabled	email
+846	message	email_provider_mod_feedback_submission_locked	0
+847	message	message_provider_mod_feedback_submission_enabled	email
+848	message	email_provider_mod_feedback_message_locked	0
+849	message	message_provider_mod_feedback_message_enabled	email
+850	message	email_provider_mod_forum_posts_locked	0
+851	message	email_provider_mod_forum_digests_locked	0
+852	message	message_provider_mod_forum_digests_enabled	email
+853	message	email_provider_mod_lesson_graded_essay_locked	0
+854	message	email_provider_mod_quiz_submission_locked	0
+855	message	message_provider_mod_quiz_submission_enabled	email
+856	message	email_provider_mod_quiz_confirmation_locked	0
+857	message	email_provider_mod_quiz_attempt_overdue_locked	0
+858	message	email_provider_mod_quiz_attempt_grading_complete_locked	0
+859	message	email_provider_moodle_newlogin_locked	0
+860	message	email_provider_moodle_notices_locked	0
+861	message	message_provider_moodle_notices_enabled	email
+862	message	email_provider_moodle_errors_locked	0
+863	message	message_provider_moodle_errors_enabled	email
+864	message	email_provider_moodle_availableupdate_locked	0
+865	message	message_provider_moodle_availableupdate_enabled	email
+866	message	email_provider_moodle_instantmessage_locked	0
+867	message	message_provider_moodle_instantmessage_enabled	popup,email
+868	message	email_provider_moodle_backup_locked	0
+869	message	message_provider_moodle_backup_enabled	email
+870	message	email_provider_moodle_courserequested_locked	0
+871	message	message_provider_moodle_courserequested_enabled	email
+872	message	email_provider_moodle_courserequestapproved_locked	0
+873	message	email_provider_moodle_courserequestrejected_locked	0
+874	message	email_provider_moodle_coursecompleted_locked	0
+875	message	email_provider_moodle_coursecontentupdated_locked	0
+876	message	email_provider_moodle_badgerecipientnotice_locked	0
+877	message	email_provider_moodle_badgecreatornotice_locked	0
+878	message	message_provider_moodle_badgecreatornotice_enabled	email
+879	message	email_provider_moodle_competencyplancomment_locked	0
+880	message	message_provider_moodle_competencyplancomment_enabled	email
+881	message	email_provider_moodle_competencyusercompcomment_locked	0
+882	message	message_provider_moodle_competencyusercompcomment_enabled	email
+883	message	email_provider_moodle_insights_locked	0
+884	message	email_provider_moodle_messagecontactrequests_locked	0
+885	message	email_provider_moodle_asyncbackupnotification_locked	0
+886	message	message_provider_moodle_asyncbackupnotification_enabled	popup,email
+887	message	email_provider_moodle_gradenotifications_locked	0
+888	message	message_provider_moodle_gradenotifications_enabled	popup,email
+889	message	email_provider_moodle_infected_locked	0
+890	message	message_provider_moodle_infected_enabled	email
+891	message	email_provider_moodle_reportbuilderschedule_locked	1
+892	message	message_provider_moodle_reportbuilderschedule_enabled	email
+893	message_popup	version	2023042400
+895	message	popup_provider_enrol_flatfile_flatfile_enrolment_locked	0
+896	message	popup_provider_enrol_imsenterprise_imsenterprise_enrolment_locked	0
+897	message	popup_provider_enrol_manual_expiry_notification_locked	0
+898	message	popup_provider_enrol_paypal_paypal_enrolment_locked	0
+899	message	popup_provider_enrol_self_expiry_notification_locked	0
+900	message	popup_provider_mod_assign_assign_notification_locked	0
+901	message	popup_provider_mod_bigbluebuttonbn_recording_ready_locked	0
+902	message	popup_provider_mod_bigbluebuttonbn_instance_updated_locked	0
+903	message	popup_provider_mod_feedback_submission_locked	0
+904	message	popup_provider_mod_feedback_message_locked	0
+905	message	popup_provider_mod_forum_posts_locked	0
+906	message	popup_provider_mod_forum_digests_locked	0
+907	message	popup_provider_mod_lesson_graded_essay_locked	0
+908	message	popup_provider_mod_quiz_submission_locked	0
+909	message	popup_provider_mod_quiz_confirmation_locked	0
+910	message	popup_provider_mod_quiz_attempt_overdue_locked	0
+911	message	popup_provider_mod_quiz_attempt_grading_complete_locked	0
+912	message	popup_provider_moodle_newlogin_locked	0
+913	message	popup_provider_moodle_notices_locked	0
+914	message	popup_provider_moodle_errors_locked	0
+915	message	popup_provider_moodle_availableupdate_locked	0
+916	message	popup_provider_moodle_instantmessage_locked	0
+917	message	popup_provider_moodle_backup_locked	0
+918	message	popup_provider_moodle_courserequested_locked	0
+919	message	popup_provider_moodle_courserequestapproved_locked	0
+920	message	popup_provider_moodle_courserequestrejected_locked	0
+921	message	popup_provider_moodle_coursecompleted_locked	0
+922	message	popup_provider_moodle_coursecontentupdated_locked	0
+923	message	popup_provider_moodle_badgerecipientnotice_locked	0
+924	message	popup_provider_moodle_badgecreatornotice_locked	0
+925	message	popup_provider_moodle_competencyplancomment_locked	0
+926	message	popup_provider_moodle_competencyusercompcomment_locked	0
+927	message	popup_provider_moodle_insights_locked	0
+928	message	popup_provider_moodle_messagecontactrequests_locked	0
+929	message	popup_provider_moodle_asyncbackupnotification_locked	0
+930	message	popup_provider_moodle_gradenotifications_locked	0
+931	message	popup_provider_moodle_infected_locked	0
+932	message	popup_provider_moodle_reportbuilderschedule_locked	0
+933	block_accessreview	version	2023042400
+934	block_activity_modules	version	2023042400
+935	block_activity_results	version	2023042400
+936	block_admin_bookmarks	version	2023042400
+937	block_badges	version	2023042400
+938	block_blog_menu	version	2023042400
+939	block_blog_recent	version	2023042400
+940	block_blog_tags	version	2023042400
+941	block_calendar_month	version	2023042400
+942	block_calendar_upcoming	version	2023042400
+943	block_comments	version	2023042400
+944	block_completionstatus	version	2023042400
+945	block_course_list	version	2023042400
+946	block_course_summary	version	2023042400
+948	block_feedback	version	2023042400
+950	block_globalsearch	version	2023042400
+951	block_glossary_random	version	2023042400
+952	block_html	version	2023042400
+953	block_livesession	version	2023110800
+954	block_login	version	2023042400
+955	block_lp	version	2023042400
+956	block_mentees	version	2023042400
+957	block_mnet_hosts	version	2023042400
+958	block_myoverview	version	2023042400
+959	block_myprofile	version	2023042400
+960	block_navigation	version	2023042400
+961	block_news_items	version	2023042400
+962	block_online_users	version	2023042400
+963	block_private_files	version	2023042400
+964	block_recent_activity	version	2023042400
+965	block_recentlyaccessedcourses	version	2023042400
+967	block_recentlyaccesseditems	version	2023042400
+968	block_rss_client	version	2023042400
+970	block_search_forums	version	2023042400
+971	block_section_links	version	2023042400
+972	block_selfcompletion	version	2023042400
+974	block_settings	version	2023042400
+975	block_site_main_menu	version	2023042400
+976	block_social_activities	version	2023042400
+977	block_starredcourses	version	2023042400
+978	block_tag_flickr	version	2023042400
+979	block_tag_youtube	version	2023042400
+981	block_tags	version	2023042400
+982	block_timeline	version	2023042400
+984	media_html5audio	version	2023042400
+985	media_html5video	version	2023042400
+986	media_videojs	version	2023042400
+987	media_vimeo	version	2023042400
+988	media_youtube	version	2023042400
+989	filter_activitynames	version	2023042400
+991	filter_algebra	version	2023042400
+992	filter_data	version	2023042400
+994	filter_displayh5p	version	2023042400
+996	filter_emailprotect	version	2023042400
+997	filter_emoticon	version	2023042400
+999	filter_glossary	version	2023042400
+1001	filter_mathjaxloader	version	2023042400
+1003	filter_mediaplugin	version	2023042400
+1005	filter_multilang	version	2023042400
+1006	filter_tex	version	2023042400
+1008	filter_tidy	version	2023042400
+1009	filter_urltolink	version	2023042400
+1011	editor_atto	version	2023042400
+1012	editor_textarea	version	2023042400
+1013	editor_tiny	version	2023042400
+1015	format_multitopic	version	2023080900
+1016	format_remuiformat	version	2023053000
+1017	format_singleactivity	version	2023042400
+1018	format_social	version	2023042400
+1019	format_topics	version	2023042400
+1020	format_weeks	version	2023042400
+1021	dataformat_csv	version	2023042400
+1022	dataformat_excel	version	2023042400
+1023	dataformat_html	version	2023042400
+1024	dataformat_json	version	2023042400
+1025	dataformat_ods	version	2023042400
+1026	dataformat_pdf	version	2023042400
+1027	profilefield_checkbox	version	2023042400
+1028	profilefield_datetime	version	2023042400
+1029	profilefield_menu	version	2023042400
+1030	profilefield_social	version	2023042400
+1031	profilefield_text	version	2023042400
+1032	profilefield_textarea	version	2023042400
+1033	report_backups	version	2023042400
+1034	report_competency	version	2023042400
+1035	report_completion	version	2023042400
+1037	report_configlog	version	2023042400
+1038	report_courseoverview	version	2023042400
+1039	report_eventlist	version	2023042400
+1040	report_infectedfiles	version	2023042400
+1041	report_insights	version	2023042400
+1042	report_log	version	2023042400
+1044	report_loglive	version	2023042400
+1045	report_outline	version	2023042400
+1047	report_participation	version	2023042400
+1049	report_performance	version	2023042400
+1050	report_progress	version	2023042400
+1052	report_questioninstances	version	2023042400
+1053	report_security	version	2023042400
+1054	report_stats	version	2023042400
+1056	report_status	version	2023042400
+1057	report_usersessions	version	2023042400
+1058	gradeexport_ods	version	2023042400
+1059	gradeexport_txt	version	2023042400
+1060	gradeexport_xls	version	2023042400
+1061	gradeexport_xml	version	2023042400
+1062	gradeimport_csv	version	2023042400
+1063	gradeimport_direct	version	2023042400
+1064	gradeimport_xml	version	2023042400
+1065	gradereport_grader	version	2023042400
+1066	gradereport_history	version	2023042400
+1067	gradereport_outcomes	version	2023042400
+1068	gradereport_overview	version	2023042400
+1069	gradereport_singleview	version	2023042400
+1070	gradereport_summary	version	2023042400
+1071	gradereport_user	version	2023042400
+1072	gradingform_guide	version	2023042400
+1073	gradingform_rubric	version	2023042400
+1074	mlbackend_php	version	2023042400
+1075	mlbackend_python	version	2023042400
+1076	mnetservice_enrol	version	2023042400
+1077	webservice_rest	version	2023042400
+1078	webservice_soap	version	2023042400
+1079	repository_areafiles	version	2023042400
+1081	areafiles	enablecourseinstances	0
+1082	areafiles	enableuserinstances	0
+1083	repository_contentbank	version	2023042400
+1085	contentbank	enablecourseinstances	0
+1086	contentbank	enableuserinstances	0
+1087	repository_coursefiles	version	2023042400
+1088	repository_dropbox	version	2023042400
+1089	repository_equella	version	2023042400
+1090	repository_filesystem	version	2023042400
+1091	repository_flickr	version	2023042400
+1092	repository_flickr_public	version	2023042400
+1093	repository_googledocs	version	2023042400
+1094	repository_local	version	2023042400
+1096	local	enablecourseinstances	0
+1097	local	enableuserinstances	0
+1098	repository_merlot	version	2023042400
+1099	repository_nextcloud	version	2023042400
+1100	repository_onedrive	version	2023042400
+1101	repository_recent	version	2023042400
+1103	recent	enablecourseinstances	0
+1104	recent	enableuserinstances	0
+1105	repository_s3	version	2023042400
+1106	repository_upload	version	2023042400
+1108	upload	enablecourseinstances	0
+1109	upload	enableuserinstances	0
+1110	repository_url	version	2023042400
+1112	url	enablecourseinstances	0
+1113	url	enableuserinstances	0
+1114	repository_user	version	2023042400
+1116	user	enablecourseinstances	0
+1117	user	enableuserinstances	0
+1118	repository_webdav	version	2023042400
+1119	repository_wikimedia	version	2023042400
+1121	wikimedia	enablecourseinstances	0
+1122	wikimedia	enableuserinstances	0
+1123	repository_youtube	version	2023042400
+1125	portfolio_download	version	2023042400
+1126	portfolio_flickr	version	2023042400
+1127	portfolio_googledocs	version	2023042400
+1128	portfolio_mahara	version	2023042400
+1129	search_simpledb	version	2023042400
+1131	search_solr	version	2023042400
+1132	qbank_bulkmove	version	2023042400
+1133	qbank_columnsortorder	version	2023042400
+1134	qbank_comment	version	2023042400
+1135	qbank_customfields	version	2023042400
+1136	qbank_deletequestion	version	2023042400
+1137	qbank_editquestion	version	2023042400
+1138	qbank_exportquestions	version	2023042400
+1139	qbank_exporttoxml	version	2023042400
+1140	qbank_history	version	2023042400
+1141	qbank_importquestions	version	2023042400
+1142	qbank_managecategories	version	2023042400
+1143	qbank_previewquestion	version	2023042400
+1144	qbank_statistics	version	2023042400
+1145	qbank_tagquestion	version	2023042400
+1146	qbank_usage	version	2023042400
+1147	qbank_viewcreator	version	2023042400
+1148	qbank_viewquestionname	version	2023042400
+1149	qbank_viewquestiontext	version	2023042400
+1150	qbank_viewquestiontype	version	2023042400
+1151	qbehaviour_adaptive	version	2023042400
+1152	qbehaviour_adaptivenopenalty	version	2023042400
+1153	qbehaviour_deferredcbm	version	2023042400
+1154	qbehaviour_deferredfeedback	version	2023042400
+1155	qbehaviour_immediatecbm	version	2023042400
+1156	qbehaviour_immediatefeedback	version	2023042400
+1157	qbehaviour_informationitem	version	2023042400
+1158	qbehaviour_interactive	version	2023042400
+1159	qbehaviour_interactivecountback	version	2023042400
+1160	qbehaviour_manualgraded	version	2023042400
+1162	question	disabledbehaviours	manualgraded
+1163	qbehaviour_missing	version	2023042400
+1164	qformat_aiken	version	2023042400
+1165	qformat_blackboard_six	version	2023042400
+1166	qformat_gift	version	2023042400
+1167	qformat_missingword	version	2023042400
+1168	qformat_multianswer	version	2023042400
+1169	qformat_xhtml	version	2023042400
+1170	qformat_xml	version	2023042400
+1171	tool_admin_presets	version	2023042400
+1172	tool_analytics	version	2023042400
+1173	tool_availabilityconditions	version	2023042400
+1174	tool_behat	version	2023042401
+1175	tool_brickfield	version	2023042400
+1177	tool_capability	version	2023042400
+1178	tool_cohortroles	version	2023042401
+1179	tool_componentlibrary	version	2023042400
+1180	tool_customlang	version	2023042400
+1182	tool_dataprivacy	version	2023042400
+1183	message	airnotifier_provider_tool_dataprivacy_contactdataprotectionofficer_locked	0
+1184	message	email_provider_tool_dataprivacy_contactdataprotectionofficer_locked	0
+1185	message	popup_provider_tool_dataprivacy_contactdataprotectionofficer_locked	0
+1186	message	message_provider_tool_dataprivacy_contactdataprotectionofficer_enabled	email,popup
+1187	message	airnotifier_provider_tool_dataprivacy_datarequestprocessingresults_locked	0
+1188	message	email_provider_tool_dataprivacy_datarequestprocessingresults_locked	0
+1189	message	popup_provider_tool_dataprivacy_datarequestprocessingresults_locked	0
+1190	message	message_provider_tool_dataprivacy_datarequestprocessingresults_enabled	email,popup
+1191	message	airnotifier_provider_tool_dataprivacy_notifyexceptions_locked	0
+1192	message	email_provider_tool_dataprivacy_notifyexceptions_locked	0
+1193	message	popup_provider_tool_dataprivacy_notifyexceptions_locked	0
+1194	message	message_provider_tool_dataprivacy_notifyexceptions_enabled	email
+1195	tool_dbtransfer	version	2023042400
+1196	tool_filetypes	version	2023042400
+1197	tool_generator	version	2023042400
+1198	tool_httpsreplace	version	2023042400
+1199	tool_innodb	version	2023042400
+1200	tool_installaddon	version	2023042400
+1201	tool_langimport	version	2023042400
+1202	tool_licensemanager	version	2023042400
+1203	tool_log	version	2023042400
+1205	tool_log	enabled_stores	logstore_standard
+1206	tool_lp	version	2023042400
+1207	tool_lpimportcsv	version	2023042400
+1208	tool_lpmigrate	version	2023042400
+1209	tool_messageinbound	version	2023042400
+1210	message	airnotifier_provider_tool_messageinbound_invalidrecipienthandler_locked	0
+1211	message	email_provider_tool_messageinbound_invalidrecipienthandler_locked	0
+1212	message	popup_provider_tool_messageinbound_invalidrecipienthandler_locked	0
+1213	message	message_provider_tool_messageinbound_invalidrecipienthandler_enabled	email
+1214	message	airnotifier_provider_tool_messageinbound_messageprocessingerror_locked	0
+1215	message	email_provider_tool_messageinbound_messageprocessingerror_locked	0
+1216	message	popup_provider_tool_messageinbound_messageprocessingerror_locked	0
+1217	message	message_provider_tool_messageinbound_messageprocessingerror_enabled	email
+1218	message	airnotifier_provider_tool_messageinbound_messageprocessingsuccess_locked	0
+1219	message	email_provider_tool_messageinbound_messageprocessingsuccess_locked	0
+1220	message	popup_provider_tool_messageinbound_messageprocessingsuccess_locked	0
+1221	message	message_provider_tool_messageinbound_messageprocessingsuccess_enabled	email
+1222	tool_mobile	version	2023042400
+1223	tool_monitor	version	2023042400
+1224	message	airnotifier_provider_tool_monitor_notification_locked	0
+1225	message	email_provider_tool_monitor_notification_locked	0
+1226	message	popup_provider_tool_monitor_notification_locked	0
+1227	message	message_provider_tool_monitor_notification_enabled	email
+1228	tool_moodlenet	version	2023042400
+1230	tool_multilangupgrade	version	2023042400
+1231	tool_oauth2	version	2023042400
+1232	tool_phpunit	version	2023042400
+1233	tool_policy	version	2023042400
+1234	tool_profiling	version	2023042400
+1235	tool_recyclebin	version	2023042400
+1236	tool_replace	version	2023042400
+1237	tool_spamcleaner	version	2023042400
+1238	tool_task	version	2023042400
+1239	tool_templatelibrary	version	2023042400
+1240	tool_unsuproles	version	2023042400
+1242	tool_uploadcourse	version	2023042400
+1243	tool_uploaduser	version	2023042400
+1244	tool_usertours	version	2023042400
+1246	tool_xmldb	version	2023042400
+1247	cachestore_apcu	version	2023042400
+1248	cachestore_file	version	2023042400
+1249	cachestore_redis	version	2023042400
+1250	cachestore_session	version	2023042400
+1251	cachestore_static	version	2023042400
+1252	cachelock_file	version	2023042400
+1253	fileconverter_googledrive	version	2023042400
+1254	fileconverter_unoconv	version	2023042400
+1256	contenttype_h5p	version	2023042400
+1258	theme_boost	version	2023042400
+1259	theme_classic	version	2023042400
+1260	theme_moove	version	2023051000
+1264	h5plib_v124	version	2023042400
+1265	paygw_paypal	version	2023042400
+1267	assignsubmission_comments	version	2023042400
+1269	assignsubmission_file	sortorder	1
+1270	assignsubmission_comments	sortorder	2
+1271	assignsubmission_onlinetext	sortorder	0
+1272	assignsubmission_file	version	2023042400
+1273	assignsubmission_onlinetext	version	2023042400
+1275	assignfeedback_comments	version	2023042400
+1277	assignfeedback_comments	sortorder	0
+1278	assignfeedback_editpdf	sortorder	1
+1279	assignfeedback_file	sortorder	3
+1280	assignfeedback_offline	sortorder	2
+1281	assignfeedback_editpdf	version	2023042400
+1283	assignfeedback_file	version	2023042400
+1285	assignfeedback_offline	version	2023042400
+1286	booktool_exportimscp	version	2023042400
+1287	booktool_importhtml	version	2023042400
+1288	booktool_print	version	2023042400
+1289	customcertelement_bgimage	version	2023042400
+1290	customcertelement_border	version	2023042400
+1291	customcertelement_categoryname	version	2023042400
+1292	customcertelement_code	version	2023042400
+1293	customcertelement_coursefield	version	2023042400
+1294	customcertelement_coursename	version	2023042400
+1295	customcertelement_date	version	2023042400
+1296	customcertelement_daterange	version	2023042400
+1297	customcertelement_digitalsignature	version	2023042400
+1298	customcertelement_grade	version	2023042400
+1299	customcertelement_gradeitemname	version	2023042400
+1300	customcertelement_image	version	2023042400
+1301	customcertelement_qrcode	version	2023042400
+1302	customcertelement_studentname	version	2023042400
+1303	customcertelement_teachername	version	2023042400
+1304	customcertelement_text	version	2023042400
+1305	customcertelement_userfield	version	2023042400
+1306	customcertelement_userpicture	version	2023042400
+1307	datafield_checkbox	version	2023042400
+1308	datafield_date	version	2023042400
+1309	datafield_file	version	2023042400
+1310	datafield_latlong	version	2023042400
+1311	datafield_menu	version	2023042400
+1312	datafield_multimenu	version	2023042400
+1313	datafield_number	version	2023042400
+1314	datafield_picture	version	2023042400
+1315	datafield_radiobutton	version	2023042400
+1316	datafield_text	version	2023042400
+1317	datafield_textarea	version	2023042400
+1318	datafield_url	version	2023042400
+1319	datapreset_imagegallery	version	2023042400
+1320	datapreset_journal	version	2023042400
+1321	datapreset_proposals	version	2023042400
+1322	datapreset_resources	version	2023042400
+1323	forumreport_summary	version	2023042400
+1324	ltiservice_basicoutcomes	version	2023042400
+1325	ltiservice_gradebookservices	version	2023042400
+1326	ltiservice_memberships	version	2023042400
+1327	ltiservice_profile	version	2023042400
+1328	ltiservice_toolproxy	version	2023042400
+1329	ltiservice_toolsettings	version	2023042400
+1330	quiz_grading	version	2023042400
+1332	quiz_overview	version	2023042400
+1334	quiz_responses	version	2023042400
+1336	quiz_statistics	version	2023042400
+1338	quizaccess_delaybetweenattempts	version	2023042400
+1339	quizaccess_ipaddress	version	2023042400
+1340	quizaccess_numattempts	version	2023042400
+1341	quizaccess_offlineattempts	version	2023042400
+1342	quizaccess_openclosedate	version	2023042400
+1343	quizaccess_password	version	2023042400
+1344	quizaccess_seb	version	2023042400
+1346	quizaccess_securewindow	version	2023042400
+1347	quizaccess_timelimit	version	2023042400
+1348	scormreport_basic	version	2023042400
+1349	scormreport_graphs	version	2023042400
+1350	scormreport_interactions	version	2023042400
+1351	scormreport_objectives	version	2023042400
+1352	workshopform_accumulative	version	2023042400
+1354	workshopform_comments	version	2023042400
+1356	workshopform_numerrors	version	2023042400
+1358	workshopform_rubric	version	2023042400
+1360	workshopallocation_manual	version	2023042400
+1361	workshopallocation_random	version	2023042400
+1362	workshopallocation_scheduled	version	2023042400
+1363	workshopeval_best	version	2023042400
+1364	atto_accessibilitychecker	version	2023042400
+1365	atto_accessibilityhelper	version	2023042400
+1366	atto_align	version	2023042400
+1367	atto_backcolor	version	2023042400
+1368	atto_bold	version	2023042400
+1369	atto_charmap	version	2023042400
+1370	atto_clear	version	2023042400
+1371	atto_collapse	version	2023042400
+1372	atto_emojipicker	version	2023042400
+1373	atto_emoticon	version	2023042400
+1374	atto_equation	version	2023042400
+1375	atto_fontcolor	version	2023042400
+1376	atto_h5p	version	2023042400
+1377	atto_html	version	2023042400
+1378	atto_image	version	2023042400
+1379	atto_indent	version	2023042400
+1380	atto_italic	version	2023042400
+1381	atto_link	version	2023042400
+1382	atto_managefiles	version	2023042400
+1383	atto_media	version	2023042400
+1384	atto_noautolink	version	2023042400
+1385	atto_orderedlist	version	2023042400
+1386	atto_recordrtc	version	2023042400
+1387	atto_rtl	version	2023042400
+1388	atto_strike	version	2023042400
+1389	atto_subscript	version	2023042400
+1390	atto_superscript	version	2023042400
+1391	atto_table	version	2023042400
+1392	atto_title	version	2023042400
+1393	atto_underline	version	2023042400
+1394	atto_undo	version	2023042400
+1395	atto_unorderedlist	version	2023042400
+1396	tiny_accessibilitychecker	version	2023042400
+1397	tiny_autosave	version	2023042400
+1398	tiny_equation	version	2023042400
+1399	tiny_h5p	version	2023042400
+1400	tiny_link	version	2023042400
+1401	tiny_media	version	2023042400
+1402	tiny_recordrtc	version	2023042400
+1403	logstore_database	version	2023042400
+1404	logstore_standard	version	2023042400
+1405	tool_moodlenet	enablemoodlenet	1
+1406	tool_dataprivacy	contactdataprotectionofficer	0
+1407	tool_dataprivacy	automaticdataexportapproval	0
+1408	tool_dataprivacy	automaticdatadeletionapproval	0
+1409	tool_dataprivacy	automaticdeletionrequests	1
+1410	tool_dataprivacy	privacyrequestexpiry	604800
+1411	tool_dataprivacy	requireallenddatesforuserdeletion	1
+1412	tool_dataprivacy	showdataretentionsummary	1
+1413	tool_log	exportlog	1
+1414	analytics	logstore	logstore_standard
+1415	message_airnotifier	encryptnotifications	0
+1416	message_airnotifier	encryptprocessing	0
+1417	assign	feedback_plugin_for_gradebook	assignfeedback_comments
+1418	assign	showrecentsubmissions	0
+1419	assign	submissionreceipts	1
+1420	assign	submissionstatement	This submission is my own work, except where I have acknowledged the use of the works of other people.
+1421	assign	submissionstatementteamsubmission	This submission is the work of my group, except where we have acknowledged the use of the works of other people.
+1422	assign	submissionstatementteamsubmissionallsubmit	This submission is my own work as a group member, except where I have acknowledged the use of the works of other people.
+1423	assign	maxperpage	-1
+1424	assign	alwaysshowdescription	1
+1425	assign	alwaysshowdescription_adv	
+1426	assign	alwaysshowdescription_locked	
+1427	assign	allowsubmissionsfromdate	0
+1428	assign	allowsubmissionsfromdate_enabled	1
+1429	assign	allowsubmissionsfromdate_adv	
+1430	assign	duedate	604800
+1431	assign	duedate_enabled	1
+1432	assign	duedate_adv	
+1433	assign	cutoffdate	1209600
+1434	assign	cutoffdate_enabled	
+1435	assign	cutoffdate_adv	
+1436	assign	enabletimelimit	0
+1437	assign	gradingduedate	1209600
+1438	assign	gradingduedate_enabled	1
+1439	assign	gradingduedate_adv	
+1440	assign	submissiondrafts	0
+1441	assign	submissiondrafts_adv	
+1442	assign	submissiondrafts_locked	
+1443	assign	requiresubmissionstatement	0
+1444	assign	requiresubmissionstatement_adv	
+1445	assign	requiresubmissionstatement_locked	
+1446	assign	attemptreopenmethod	none
+1447	assign	attemptreopenmethod_adv	
+1448	assign	attemptreopenmethod_locked	
+1449	assign	maxattempts	-1
+1450	assign	maxattempts_adv	
+1451	assign	maxattempts_locked	
+1452	assign	teamsubmission	0
+1453	assign	teamsubmission_adv	
+1454	assign	teamsubmission_locked	
+1455	assign	preventsubmissionnotingroup	0
+1456	assign	preventsubmissionnotingroup_adv	
+1457	assign	preventsubmissionnotingroup_locked	
+1458	assign	requireallteammemberssubmit	0
+1459	assign	requireallteammemberssubmit_adv	
+1460	assign	requireallteammemberssubmit_locked	
+1461	assign	teamsubmissiongroupingid	
+1462	assign	teamsubmissiongroupingid_adv	
+1463	assign	sendnotifications	0
+1464	assign	sendnotifications_adv	
+1465	assign	sendnotifications_locked	
+1466	assign	sendlatenotifications	0
+1467	assign	sendlatenotifications_adv	
+1468	assign	sendlatenotifications_locked	
+1469	assign	sendstudentnotifications	1
+1470	assign	sendstudentnotifications_adv	
+1471	assign	sendstudentnotifications_locked	
+1472	assign	blindmarking	0
+1473	assign	blindmarking_adv	
+1474	assign	blindmarking_locked	
+1475	assign	hidegrader	0
+1476	assign	hidegrader_adv	
+1477	assign	hidegrader_locked	
+1478	assign	markingworkflow	0
+1479	assign	markingworkflow_adv	
+1480	assign	markingworkflow_locked	
+1481	assign	markingallocation	0
+1482	assign	markingallocation_adv	
+1483	assign	markingallocation_locked	
+1484	assignsubmission_file	default	1
+1485	assignsubmission_file	maxfiles	20
+1486	assignsubmission_file	filetypes	
+1487	assignsubmission_file	maxbytes	0
+1488	assignsubmission_onlinetext	default	0
+1489	assignfeedback_comments	default	1
+1490	assignfeedback_comments	inline	0
+1491	assignfeedback_comments	inline_adv	
+1492	assignfeedback_comments	inline_locked	
+1493	assignfeedback_editpdf	default	1
+1494	assignfeedback_editpdf	stamps	
+1495	assignfeedback_file	default	0
+1496	assignfeedback_offline	default	0
+1497	mod_bigbluebuttonbn	presentationdefault	
+1498	book	numberingoptions	0,1,2,3
+1499	book	numbering	1
+1500	customcert	verifyallcertificates	0
+1501	customcert	showposxy	0
+1502	customcert	verifycertificate	
+1503	customcert	managetemplates	
+1504	customcert	uploadimage	
+1505	customcert	emailstudents	0
+1506	customcert	emailteachers	0
+1507	customcert	emailothers	
+1508	customcert	verifyany	0
+1509	customcert	requiredtime	0
+1510	customcert	protection_print	0
+1511	customcert	protection_modify	0
+1512	customcert	protection_copy	0
+1513	resource	framesize	130
+1514	resource	displayoptions	0,1,4,5,6
+1515	resource	printintro	1
+1516	resource	display	0
+1517	resource	showsize	0
+1518	resource	showtype	0
+1519	resource	showdate	0
+1520	resource	popupwidth	620
+1521	resource	popupheight	450
+1522	resource	filterfiles	0
+1523	folder	showexpanded	1
+1524	folder	maxsizetodownload	0
+1525	mod_h5pactivity	enablesavestate	1
+1526	mod_h5pactivity	savestatefreq	60
+1527	imscp	keepold	1
+1528	imscp	keepold_adv	
+1529	mod_lesson	mediafile	
+1530	mod_lesson	mediafile_adv	1
+1531	mod_lesson	mediawidth	640
+1532	mod_lesson	mediaheight	480
+1533	mod_lesson	mediaclose	0
+1534	mod_lesson	progressbar	0
+1535	mod_lesson	progressbar_adv	
+1536	mod_lesson	ongoing	0
+1537	mod_lesson	ongoing_adv	1
+1538	mod_lesson	displayleftmenu	0
+1539	mod_lesson	displayleftmenu_adv	
+1540	mod_lesson	displayleftif	0
+1541	mod_lesson	displayleftif_adv	1
+1542	mod_lesson	slideshow	0
+1543	mod_lesson	slideshow_adv	1
+1544	mod_lesson	slideshowwidth	640
+1545	mod_lesson	slideshowheight	480
+1546	mod_lesson	slideshowbgcolor	#FFFFFF
+1547	mod_lesson	maxanswers	5
+1548	mod_lesson	maxanswers_adv	1
+1549	mod_lesson	defaultfeedback	0
+1550	mod_lesson	defaultfeedback_adv	1
+1551	mod_lesson	activitylink	
+1552	mod_lesson	activitylink_adv	1
+1553	mod_lesson	timelimit	0
+1554	mod_lesson	timelimit_adv	
+1555	mod_lesson	password	0
+1556	mod_lesson	password_adv	1
+1557	mod_lesson	modattempts	0
+1558	mod_lesson	modattempts_adv	
+1559	mod_lesson	displayreview	0
+1560	mod_lesson	displayreview_adv	
+1561	mod_lesson	maximumnumberofattempts	1
+1562	mod_lesson	maximumnumberofattempts_adv	
+1563	mod_lesson	defaultnextpage	0
+1564	mod_lesson	defaultnextpage_adv	1
+1565	mod_lesson	numberofpagestoshow	1
+1566	mod_lesson	numberofpagestoshow_adv	1
+1567	mod_lesson	practice	0
+1568	mod_lesson	practice_adv	
+1569	mod_lesson	customscoring	1
+1570	mod_lesson	customscoring_adv	1
+1571	mod_lesson	retakesallowed	0
+1572	mod_lesson	retakesallowed_adv	
+1573	mod_lesson	handlingofretakes	0
+1574	mod_lesson	handlingofretakes_adv	1
+1575	mod_lesson	minimumnumberofquestions	0
+1576	mod_lesson	minimumnumberofquestions_adv	1
+1577	page	displayoptions	5
+1578	page	printintro	0
+1579	page	printlastmodified	1
+1580	page	display	5
+1581	page	popupwidth	620
+1582	page	popupheight	450
+1583	quiz	timelimit	0
+1584	quiz	timelimit_adv	
+1585	quiz	timelimit_locked	
+1586	quiz	notifyattemptgradeddelay	18000
+1587	quiz	overduehandling	autosubmit
+1588	quiz	overduehandling_adv	
+1589	quiz	overduehandling_locked	
+1590	quiz	graceperiod	86400
+1591	quiz	graceperiod_adv	
+1592	quiz	graceperiod_locked	
+1593	quiz	graceperiodmin	60
+1594	quiz	attempts	0
+1595	quiz	attempts_adv	
+1596	quiz	attempts_locked	
+1597	quiz	grademethod	1
+1598	quiz	grademethod_adv	
+1599	quiz	grademethod_locked	
+1600	quiz	maximumgrade	10
+1601	quiz	maximumgrade_locked	
+1602	quiz	questionsperpage	1
+1603	quiz	questionsperpage_adv	
+1604	quiz	questionsperpage_locked	
+1605	quiz	navmethod	free
+1606	quiz	navmethod_adv	1
+1607	quiz	navmethod_locked	
+1608	quiz	shuffleanswers	1
+1609	quiz	shuffleanswers_adv	
+1610	quiz	shuffleanswers_locked	
+1611	quiz	preferredbehaviour	deferredfeedback
+1612	quiz	preferredbehaviour_locked	
+1613	quiz	canredoquestions	0
+1614	quiz	canredoquestions_adv	1
+1615	quiz	canredoquestions_locked	
+1616	quiz	attemptonlast	0
+1617	quiz	attemptonlast_adv	1
+1618	quiz	attemptonlast_locked	
+1619	quiz	reviewattempt	69904
+1620	quiz	reviewcorrectness	69904
+1621	quiz	reviewmarks	69904
+1622	quiz	reviewspecificfeedback	69904
+1623	quiz	reviewgeneralfeedback	69904
+1624	quiz	reviewrightanswer	69904
+1625	quiz	reviewoverallfeedback	4368
+1626	quiz	showuserpicture	0
+1627	quiz	showuserpicture_adv	
+1628	quiz	showuserpicture_locked	
+1629	quiz	decimalpoints	2
+1630	quiz	decimalpoints_adv	
+1631	quiz	decimalpoints_locked	
+1632	quiz	questiondecimalpoints	-1
+1633	quiz	questiondecimalpoints_adv	
+1634	quiz	questiondecimalpoints_locked	
+1635	quiz	showblocks	0
+1636	quiz	showblocks_adv	1
+1637	quiz	showblocks_locked	
+1638	quiz	quizpassword	
+1639	quiz	quizpassword_adv	
+1640	quiz	quizpassword_required	
+1641	quiz	quizpassword_locked	
+1642	quiz	subnet	
+1643	quiz	subnet_adv	1
+1644	quiz	subnet_locked	
+1645	quiz	delay1	0
+1646	quiz	delay1_adv	1
+1647	quiz	delay1_locked	
+1648	quiz	delay2	0
+1649	quiz	delay2_adv	1
+1650	quiz	delay2_locked	
+1651	quiz	browsersecurity	-
+1652	quiz	browsersecurity_adv	1
+1653	quiz	browsersecurity_locked	
+1654	quiz	initialnumfeedbacks	2
+1655	quiz	autosaveperiod	60
+1656	quizaccess_seb	autoreconfigureseb	1
+1657	quizaccess_seb	showseblinks	seb,http
+1658	quizaccess_seb	downloadlink	https://safeexambrowser.org/download_en.html
+1659	quizaccess_seb	quizpasswordrequired	0
+1660	quizaccess_seb	displayblocksbeforestart	0
+1661	quizaccess_seb	displayblockswhenfinished	1
+1662	scorm	displaycoursestructure	0
+1663	scorm	displaycoursestructure_adv	
+1664	scorm	popup	0
+1665	scorm	popup_adv	
+1666	scorm	framewidth	100
+1667	scorm	framewidth_adv	1
+1668	scorm	frameheight	500
+1669	scorm	frameheight_adv	1
+1670	scorm	winoptgrp_adv	1
+1671	scorm	scrollbars	0
+1672	scorm	directories	0
+1673	scorm	location	0
+1674	scorm	menubar	0
+1675	scorm	toolbar	0
+1676	scorm	status	0
+1677	scorm	skipview	0
+1678	scorm	skipview_adv	1
+1679	scorm	hidebrowse	0
+1680	scorm	hidebrowse_adv	1
+1681	scorm	hidetoc	0
+1682	scorm	hidetoc_adv	1
+1683	scorm	nav	1
+1684	scorm	nav_adv	1
+1685	scorm	navpositionleft	-100
+1686	scorm	navpositionleft_adv	1
+1687	scorm	navpositiontop	-100
+1688	scorm	navpositiontop_adv	1
+1689	scorm	collapsetocwinsize	767
+1690	scorm	collapsetocwinsize_adv	1
+1691	scorm	displayattemptstatus	1
+1692	scorm	displayattemptstatus_adv	
+1693	scorm	grademethod	1
+1694	scorm	maxgrade	100
+1695	scorm	maxattempt	0
+1696	scorm	whatgrade	0
+1697	scorm	forcecompleted	0
+1698	scorm	forcenewattempt	0
+1699	scorm	autocommit	0
+1700	scorm	masteryoverride	1
+1701	scorm	lastattemptlock	0
+1702	scorm	auto	0
+1703	scorm	updatefreq	0
+1704	scorm	scormstandard	0
+1705	scorm	allowtypeexternal	0
+1706	scorm	allowtypelocalsync	0
+1707	scorm	allowtypeexternalaicc	0
+1708	scorm	allowaicchacp	0
+1709	scorm	aicchacptimeout	30
+1710	scorm	aicchacpkeepsessiondata	1
+1711	scorm	aiccuserid	1
+1712	scorm	forcejavascript	1
+1713	scorm	allowapidebug	0
+1714	scorm	apidebugmask	.*
+1715	scorm	protectpackagedownloads	0
+1716	securepdf	resolution	150
+1717	securepdf	addusername	0
+1718	securepdf	addsiteaddress	0
+1719	securepdf	usernameposition	bottom
+1720	label	dndmedia	1
+1721	label	dndresizewidth	400
+1722	label	dndresizeheight	400
+1723	url	framesize	130
+1724	url	secretphrase	
+1725	url	rolesinparams	0
+1726	url	displayoptions	0,1,5,6
+1727	url	printintro	1
+1728	url	display	0
+1729	url	popupwidth	620
+1730	url	popupheight	450
+1731	workshop	grade	80
+1732	workshop	gradinggrade	20
+1733	workshop	gradedecimals	0
+1734	workshop	maxbytes	0
+1735	workshop	strategy	accumulative
+1736	workshop	examplesmode	0
+1737	workshopallocation_random	numofreviews	5
+1738	workshopform_numerrors	grade0	No
+1739	workshopform_numerrors	grade1	Yes
+1740	workshopeval_best	comparison	5
+1741	zoom	accountid	
+1742	zoom	clientid	
+1743	zoom	clientsecret	
+1744	zoom	zoomurl	
+1745	zoom	apiendpoint	global
+1746	zoom	proxyhost	
+1747	zoom	apiidentifier	email
+1748	zoom	licensesnumber	0
+1749	zoom	utmost	0
+1750	zoom	instanceusers	0
+1751	zoom	recycleonjoin	0
+1752	zoom	firstabletojoin	15
+1753	zoom	displayleadtime	0
+1754	zoom	displaypassword	0
+1755	zoom	maskparticipantdata	0
+1756	zoom	viewrecordings	0
+1757	zoom	showwebinars	2
+1758	zoom	webinardefault	0
+1759	zoom	showencryptiontype	1
+1760	zoom	showschedulingprivilege	1
+1761	zoom	showalternativehosts	1
+1762	zoom	showcapacitywarning	1
+1763	zoom	showallmeetings	1
+1764	zoom	showdownloadical	1
+1765	zoom	defaultrecurring	0
+1766	zoom	defaultshowschedule	1
+1767	zoom	defaultregistration	2
+1768	zoom	requirepasscode	1
+1769	zoom	requirepasscode_locked	1
+1770	zoom	defaultencryptiontypeoption	enhanced_encryption
+1771	zoom	defaultwaitingroomoption	1
+1772	zoom	defaultjoinbeforehost	0
+1773	zoom	defaultauthusersoption	0
+1774	zoom	defaultshowsecurity	1
+1775	zoom	defaulthostvideo	0
+1776	zoom	defaultparticipantsvideo	0
+1777	zoom	defaultaudiooption	both
+1778	zoom	defaultmuteuponentryoption	1
+1779	zoom	recordingoption	userdefault
+1780	zoom	allowrecordingchangeoption	1
+1781	zoom	defaultshowmedia	1
+1782	zoom	defaulttrackingfields	
+1783	zoom	invitationregexenabled	0
+1784	zoom	invitationremoveinvite	0
+1785	zoom	invitationremoveicallink	0
+1786	zoom	invitation_invite	/^.+is inviting you to a scheduled zoom meeting.+$/mi
+1787	zoom	invitation_joinurl	/^join zoom meeting.*(\\n.*)+?(\\nmeeting id.+\\npasscode.+)$/mi
+1788	zoom	invitation_onetapmobile	/^one tap mobile.*(\\n\\s*\\+.+)+$/mi
+1789	zoom	invitation_dialin	/^dial by your location.*(\\n\\s*\\+.+)+(\\n.*)+find your local number.+$/mi
+1790	zoom	invitation_sip	/^join by sip.*\\n.+$/mi
+1791	zoom	invitation_h323	/^join by h\\.323.*(\\n.*)+?(\\nmeeting id.+\\npasscode.+)$/mi
+1792	zoom	invitation_icallink	/^.+download and import the following iCalendar.+$\\n.+$/mi
+1793	tool_brickfield	analysistype	0
+1794	tool_brickfield	deletehistoricaldata	1
+1795	tool_brickfield	batch	1000
+1796	tool_brickfield	perpage	50
+1797	tool_recyclebin	coursebinenable	1
+1798	tool_recyclebin	coursebinexpiry	604800
+1799	tool_recyclebin	categorybinenable	1
+1800	tool_recyclebin	categorybinexpiry	604800
+1801	tool_recyclebin	autohide	1
+1802	antivirus_clamav	runningmethod	commandline
+1803	antivirus_clamav	pathtoclam	
+1804	antivirus_clamav	pathtounixsocket	
+1805	antivirus_clamav	tcpsockethost	
+1806	antivirus_clamav	tcpsocketport	3310
+1807	antivirus_clamav	clamfailureonupload	tryagain
+1808	antivirus_clamav	tries	1
+1809	auth_cas	field_map_firstname	
+1810	auth_cas	field_updatelocal_firstname	oncreate
+1811	auth_cas	field_updateremote_firstname	0
+1812	auth_cas	field_lock_firstname	unlocked
+1813	auth_cas	field_map_lastname	
+1814	auth_cas	field_updatelocal_lastname	oncreate
+1815	auth_cas	field_updateremote_lastname	0
+1816	auth_cas	field_lock_lastname	unlocked
+1817	auth_cas	field_map_email	
+1818	auth_cas	field_updatelocal_email	oncreate
+1819	auth_cas	field_updateremote_email	0
+1820	auth_cas	field_lock_email	unlocked
+1821	auth_cas	field_map_city	
+1822	auth_cas	field_updatelocal_city	oncreate
+1823	auth_cas	field_updateremote_city	0
+1824	auth_cas	field_lock_city	unlocked
+1825	auth_cas	field_map_country	
+1826	auth_cas	field_updatelocal_country	oncreate
+1827	auth_cas	field_updateremote_country	0
+1828	auth_cas	field_lock_country	unlocked
+1829	auth_cas	field_map_lang	
+1830	auth_cas	field_updatelocal_lang	oncreate
+1831	auth_cas	field_updateremote_lang	0
+1832	auth_cas	field_lock_lang	unlocked
+1833	auth_cas	field_map_description	
+1834	auth_cas	field_updatelocal_description	oncreate
+1835	auth_cas	field_updateremote_description	0
+1836	auth_cas	field_lock_description	unlocked
+1837	auth_cas	field_map_idnumber	
+1838	auth_cas	field_updatelocal_idnumber	oncreate
+1839	auth_cas	field_updateremote_idnumber	0
+1840	auth_cas	field_lock_idnumber	unlocked
+1841	auth_cas	field_map_institution	
+1842	auth_cas	field_updatelocal_institution	oncreate
+1843	auth_cas	field_updateremote_institution	0
+1844	auth_cas	field_lock_institution	unlocked
+1845	auth_cas	field_map_department	
+1846	auth_cas	field_updatelocal_department	oncreate
+1847	auth_cas	field_updateremote_department	0
+1848	auth_cas	field_lock_department	unlocked
+1849	auth_cas	field_map_phone1	
+1850	auth_cas	field_updatelocal_phone1	oncreate
+1851	auth_cas	field_updateremote_phone1	0
+1852	auth_cas	field_lock_phone1	unlocked
+1853	auth_cas	field_map_phone2	
+1854	auth_cas	field_updatelocal_phone2	oncreate
+1855	auth_cas	field_updateremote_phone2	0
+1856	auth_cas	field_lock_phone2	unlocked
+1857	auth_cas	field_map_address	
+1858	auth_cas	field_updatelocal_address	oncreate
+1859	auth_cas	field_updateremote_address	0
+1860	auth_cas	field_lock_address	unlocked
+1861	auth_cas	field_map_firstnamephonetic	
+1862	auth_cas	field_updatelocal_firstnamephonetic	oncreate
+1863	auth_cas	field_updateremote_firstnamephonetic	0
+1864	auth_cas	field_lock_firstnamephonetic	unlocked
+1865	auth_cas	field_map_lastnamephonetic	
+1866	auth_cas	field_updatelocal_lastnamephonetic	oncreate
+1867	auth_cas	field_updateremote_lastnamephonetic	0
+1868	auth_cas	field_lock_lastnamephonetic	unlocked
+1869	auth_cas	field_map_middlename	
+1870	auth_cas	field_updatelocal_middlename	oncreate
+1871	auth_cas	field_updateremote_middlename	0
+1872	auth_cas	field_lock_middlename	unlocked
+1873	auth_cas	field_map_alternatename	
+1874	auth_cas	field_updatelocal_alternatename	oncreate
+1875	auth_cas	field_updateremote_alternatename	0
+1876	auth_cas	field_lock_alternatename	unlocked
+1877	auth_email	recaptcha	0
+1878	auth_email	field_lock_firstname	unlocked
+1879	auth_email	field_lock_lastname	unlocked
+1880	auth_email	field_lock_email	unlocked
+1881	auth_email	field_lock_city	unlocked
+1882	auth_email	field_lock_country	unlocked
+1883	auth_email	field_lock_lang	unlocked
+1884	auth_email	field_lock_description	unlocked
+1885	auth_email	field_lock_idnumber	unlocked
+1886	auth_email	field_lock_institution	unlocked
+1887	auth_email	field_lock_department	unlocked
+1888	auth_email	field_lock_phone1	unlocked
+1889	auth_email	field_lock_phone2	unlocked
+1890	auth_email	field_lock_address	unlocked
+1891	auth_email	field_lock_firstnamephonetic	unlocked
+1892	auth_email	field_lock_lastnamephonetic	unlocked
+1893	auth_email	field_lock_middlename	unlocked
+1894	auth_email	field_lock_alternatename	unlocked
+1895	auth_db	host	127.0.0.1
+1896	auth_db	type	mysqli
+1897	auth_db	sybasequoting	0
+1898	auth_db	name	
+1899	auth_db	user	
+1900	auth_db	pass	
+1901	auth_db	table	
+1902	auth_db	fielduser	
+1903	auth_db	fieldpass	
+1904	auth_db	passtype	plaintext
+1905	auth_db	extencoding	utf-8
+1906	auth_db	setupsql	
+1907	auth_db	debugauthdb	0
+1908	auth_db	changepasswordurl	
+1909	auth_db	removeuser	0
+1910	auth_db	updateusers	0
+1911	auth_db	field_map_firstname	
+1912	auth_db	field_updatelocal_firstname	oncreate
+1913	auth_db	field_updateremote_firstname	0
+1914	auth_db	field_lock_firstname	unlocked
+1915	auth_db	field_map_lastname	
+1916	auth_db	field_updatelocal_lastname	oncreate
+1917	auth_db	field_updateremote_lastname	0
+1918	auth_db	field_lock_lastname	unlocked
+1919	auth_db	field_map_email	
+1920	auth_db	field_updatelocal_email	oncreate
+1921	auth_db	field_updateremote_email	0
+1922	auth_db	field_lock_email	unlocked
+1923	auth_db	field_map_city	
+1924	auth_db	field_updatelocal_city	oncreate
+1925	auth_db	field_updateremote_city	0
+1926	auth_db	field_lock_city	unlocked
+1927	auth_db	field_map_country	
+1928	auth_db	field_updatelocal_country	oncreate
+1929	auth_db	field_updateremote_country	0
+1930	auth_db	field_lock_country	unlocked
+1931	auth_db	field_map_lang	
+1932	auth_db	field_updatelocal_lang	oncreate
+1933	auth_db	field_updateremote_lang	0
+1934	auth_db	field_lock_lang	unlocked
+1935	auth_db	field_map_description	
+1936	auth_db	field_updatelocal_description	oncreate
+1937	auth_db	field_updateremote_description	0
+1938	auth_db	field_lock_description	unlocked
+1939	auth_db	field_map_idnumber	
+1940	auth_db	field_updatelocal_idnumber	oncreate
+1941	auth_db	field_updateremote_idnumber	0
+1942	auth_db	field_lock_idnumber	unlocked
+1943	auth_db	field_map_institution	
+1944	auth_db	field_updatelocal_institution	oncreate
+1945	auth_db	field_updateremote_institution	0
+1946	auth_db	field_lock_institution	unlocked
+1947	auth_db	field_map_department	
+1948	auth_db	field_updatelocal_department	oncreate
+1949	auth_db	field_updateremote_department	0
+1950	auth_db	field_lock_department	unlocked
+1951	auth_db	field_map_phone1	
+1952	auth_db	field_updatelocal_phone1	oncreate
+1953	auth_db	field_updateremote_phone1	0
+1954	auth_db	field_lock_phone1	unlocked
+1955	auth_db	field_map_phone2	
+1956	auth_db	field_updatelocal_phone2	oncreate
+1957	auth_db	field_updateremote_phone2	0
+1958	auth_db	field_lock_phone2	unlocked
+1959	auth_db	field_map_address	
+1960	auth_db	field_updatelocal_address	oncreate
+1961	auth_db	field_updateremote_address	0
+1962	auth_db	field_lock_address	unlocked
+1963	auth_db	field_map_firstnamephonetic	
+1964	auth_db	field_updatelocal_firstnamephonetic	oncreate
+1965	auth_db	field_updateremote_firstnamephonetic	0
+1966	auth_db	field_lock_firstnamephonetic	unlocked
+1967	auth_db	field_map_lastnamephonetic	
+1968	auth_db	field_updatelocal_lastnamephonetic	oncreate
+1969	auth_db	field_updateremote_lastnamephonetic	0
+1970	auth_db	field_lock_lastnamephonetic	unlocked
+1971	auth_db	field_map_middlename	
+1972	auth_db	field_updatelocal_middlename	oncreate
+1973	auth_db	field_updateremote_middlename	0
+1974	auth_db	field_lock_middlename	unlocked
+1975	auth_db	field_map_alternatename	
+1976	auth_db	field_updatelocal_alternatename	oncreate
+1977	auth_db	field_updateremote_alternatename	0
+1978	auth_db	field_lock_alternatename	unlocked
+1979	auth_ldap	field_map_firstname	
+1980	auth_ldap	field_updatelocal_firstname	oncreate
+1981	auth_ldap	field_updateremote_firstname	0
+1982	auth_ldap	field_lock_firstname	unlocked
+1983	auth_ldap	field_map_lastname	
+1984	auth_ldap	field_updatelocal_lastname	oncreate
+1985	auth_ldap	field_updateremote_lastname	0
+1986	auth_ldap	field_lock_lastname	unlocked
+1987	auth_ldap	field_map_email	
+1988	auth_ldap	field_updatelocal_email	oncreate
+1989	auth_ldap	field_updateremote_email	0
+1990	auth_ldap	field_lock_email	unlocked
+1991	auth_ldap	field_map_city	
+1992	auth_ldap	field_updatelocal_city	oncreate
+1993	auth_ldap	field_updateremote_city	0
+1994	auth_ldap	field_lock_city	unlocked
+1995	auth_ldap	field_map_country	
+1996	auth_ldap	field_updatelocal_country	oncreate
+1997	auth_ldap	field_updateremote_country	0
+1998	auth_ldap	field_lock_country	unlocked
+1999	auth_ldap	field_map_lang	
+2000	auth_ldap	field_updatelocal_lang	oncreate
+2001	auth_ldap	field_updateremote_lang	0
+2002	auth_ldap	field_lock_lang	unlocked
+2003	auth_ldap	field_map_description	
+2004	auth_ldap	field_updatelocal_description	oncreate
+2005	auth_ldap	field_updateremote_description	0
+2006	auth_ldap	field_lock_description	unlocked
+2007	auth_ldap	field_map_idnumber	
+2008	auth_ldap	field_updatelocal_idnumber	oncreate
+2009	auth_ldap	field_updateremote_idnumber	0
+2010	auth_ldap	field_lock_idnumber	unlocked
+2011	auth_ldap	field_map_institution	
+2012	auth_ldap	field_updatelocal_institution	oncreate
+2013	auth_ldap	field_updateremote_institution	0
+2014	auth_ldap	field_lock_institution	unlocked
+2015	auth_ldap	field_map_department	
+2016	auth_ldap	field_updatelocal_department	oncreate
+2017	auth_ldap	field_updateremote_department	0
+2018	auth_ldap	field_lock_department	unlocked
+2019	auth_ldap	field_map_phone1	
+2020	auth_ldap	field_updatelocal_phone1	oncreate
+2021	auth_ldap	field_updateremote_phone1	0
+2022	auth_ldap	field_lock_phone1	unlocked
+2023	auth_ldap	field_map_phone2	
+2024	auth_ldap	field_updatelocal_phone2	oncreate
+2025	auth_ldap	field_updateremote_phone2	0
+2026	auth_ldap	field_lock_phone2	unlocked
+2027	auth_ldap	field_map_address	
+2028	auth_ldap	field_updatelocal_address	oncreate
+2029	auth_ldap	field_updateremote_address	0
+2030	auth_ldap	field_lock_address	unlocked
+2031	auth_ldap	field_map_firstnamephonetic	
+2032	auth_ldap	field_updatelocal_firstnamephonetic	oncreate
+2033	auth_ldap	field_updateremote_firstnamephonetic	0
+2034	auth_ldap	field_lock_firstnamephonetic	unlocked
+2035	auth_ldap	field_map_lastnamephonetic	
+2036	auth_ldap	field_updatelocal_lastnamephonetic	oncreate
+2037	auth_ldap	field_updateremote_lastnamephonetic	0
+2038	auth_ldap	field_lock_lastnamephonetic	unlocked
+2039	auth_ldap	field_map_middlename	
+2040	auth_ldap	field_updatelocal_middlename	oncreate
+2041	auth_ldap	field_updateremote_middlename	0
+2042	auth_ldap	field_lock_middlename	unlocked
+2043	auth_ldap	field_map_alternatename	
+2044	auth_ldap	field_updatelocal_alternatename	oncreate
+2045	auth_ldap	field_updateremote_alternatename	0
+2046	auth_ldap	field_lock_alternatename	unlocked
+2047	auth_manual	expiration	0
+2048	auth_manual	expirationtime	30
+2049	auth_manual	expiration_warning	0
+2050	auth_manual	field_lock_firstname	unlocked
+2051	auth_manual	field_lock_lastname	unlocked
+2052	auth_manual	field_lock_email	unlocked
+2053	auth_manual	field_lock_city	unlocked
+2054	auth_manual	field_lock_country	unlocked
+2055	auth_manual	field_lock_lang	unlocked
+2056	auth_manual	field_lock_description	unlocked
+2057	auth_manual	field_lock_idnumber	unlocked
+2058	auth_manual	field_lock_institution	unlocked
+2059	auth_manual	field_lock_department	unlocked
+2060	auth_manual	field_lock_phone1	unlocked
+2061	auth_manual	field_lock_phone2	unlocked
+2062	auth_manual	field_lock_address	unlocked
+2063	auth_manual	field_lock_firstnamephonetic	unlocked
+2064	auth_manual	field_lock_lastnamephonetic	unlocked
+2065	auth_manual	field_lock_middlename	unlocked
+2066	auth_manual	field_lock_alternatename	unlocked
+2067	auth_mnet	rpc_negotiation_timeout	30
+2068	auth_none	field_lock_firstname	unlocked
+2069	auth_none	field_lock_lastname	unlocked
+2070	auth_none	field_lock_email	unlocked
+2071	auth_none	field_lock_city	unlocked
+2072	auth_none	field_lock_country	unlocked
+2073	auth_none	field_lock_lang	unlocked
+2074	auth_none	field_lock_description	unlocked
+2075	auth_none	field_lock_idnumber	unlocked
+2076	auth_none	field_lock_institution	unlocked
+2077	auth_none	field_lock_department	unlocked
+2078	auth_none	field_lock_phone1	unlocked
+2079	auth_none	field_lock_phone2	unlocked
+2080	auth_none	field_lock_address	unlocked
+2081	auth_none	field_lock_firstnamephonetic	unlocked
+2082	auth_none	field_lock_lastnamephonetic	unlocked
+2083	auth_none	field_lock_middlename	unlocked
+2084	auth_none	field_lock_alternatename	unlocked
+2085	auth_oauth2	field_lock_firstname	unlocked
+2086	auth_oauth2	field_lock_lastname	unlocked
+2087	auth_oauth2	field_lock_email	unlocked
+2088	auth_oauth2	field_lock_city	unlocked
+2089	auth_oauth2	field_lock_country	unlocked
+2090	auth_oauth2	field_lock_lang	unlocked
+2091	auth_oauth2	field_lock_description	unlocked
+2092	auth_oauth2	field_lock_idnumber	unlocked
+2093	auth_oauth2	field_lock_institution	unlocked
+2094	auth_oauth2	field_lock_department	unlocked
+2095	auth_oauth2	field_lock_phone1	unlocked
+2096	auth_oauth2	field_lock_phone2	unlocked
+2097	auth_oauth2	field_lock_address	unlocked
+2098	auth_oauth2	field_lock_firstnamephonetic	unlocked
+2099	auth_oauth2	field_lock_lastnamephonetic	unlocked
+2100	auth_oauth2	field_lock_middlename	unlocked
+2101	auth_oauth2	field_lock_alternatename	unlocked
+2102	auth_shibboleth	user_attribute	
+2103	auth_shibboleth	convert_data	
+2104	auth_shibboleth	alt_login	off
+2105	auth_shibboleth	organization_selection	urn:mace:organization1:providerID, Example Organization 1\
+        https://another.idp-id.com/shibboleth, Other Example Organization, /Shibboleth.sso/DS/SWITCHaai\
+        urn:mace:organization2:providerID, Example Organization 2, /Shibboleth.sso/WAYF/SWITCHaai
+2106	auth_shibboleth	logout_handler	
+2107	auth_shibboleth	logout_return_url	
+2108	auth_shibboleth	login_name	Shibboleth Login
+2109	auth_shibboleth	auth_logo	
+2110	auth_shibboleth	auth_instructions	Use the <a href="http://localhost/product/proSkill/auth/shibboleth/index.php">Shibboleth login</a> to get access via Shibboleth, if your institution supports it. Otherwise, use the normal login form shown here.
+2111	auth_shibboleth	changepasswordurl	
+2112	auth_shibboleth	field_map_firstname	
+2113	auth_shibboleth	field_updatelocal_firstname	oncreate
+2114	auth_shibboleth	field_lock_firstname	unlocked
+2115	auth_shibboleth	field_map_lastname	
+2116	auth_shibboleth	field_updatelocal_lastname	oncreate
+2117	auth_shibboleth	field_lock_lastname	unlocked
+2118	auth_shibboleth	field_map_email	
+2119	auth_shibboleth	field_updatelocal_email	oncreate
+2120	auth_shibboleth	field_lock_email	unlocked
+2121	auth_shibboleth	field_map_city	
+2122	auth_shibboleth	field_updatelocal_city	oncreate
+2123	auth_shibboleth	field_lock_city	unlocked
+2124	auth_shibboleth	field_map_country	
+2125	auth_shibboleth	field_updatelocal_country	oncreate
+2126	auth_shibboleth	field_lock_country	unlocked
+2127	auth_shibboleth	field_map_lang	
+2128	auth_shibboleth	field_updatelocal_lang	oncreate
+2129	auth_shibboleth	field_lock_lang	unlocked
+2130	auth_shibboleth	field_map_description	
+2131	auth_shibboleth	field_updatelocal_description	oncreate
+2132	auth_shibboleth	field_lock_description	unlocked
+2133	auth_shibboleth	field_map_idnumber	
+2134	auth_shibboleth	field_updatelocal_idnumber	oncreate
+2135	auth_shibboleth	field_lock_idnumber	unlocked
+2136	auth_shibboleth	field_map_institution	
+2137	auth_shibboleth	field_updatelocal_institution	oncreate
+2138	auth_shibboleth	field_lock_institution	unlocked
+2139	auth_shibboleth	field_map_department	
+2140	auth_shibboleth	field_updatelocal_department	oncreate
+2141	auth_shibboleth	field_lock_department	unlocked
+2142	auth_shibboleth	field_map_phone1	
+2143	auth_shibboleth	field_updatelocal_phone1	oncreate
+2144	auth_shibboleth	field_lock_phone1	unlocked
+2145	auth_shibboleth	field_map_phone2	
+2146	auth_shibboleth	field_updatelocal_phone2	oncreate
+2147	auth_shibboleth	field_lock_phone2	unlocked
+2148	auth_shibboleth	field_map_address	
+2149	auth_shibboleth	field_updatelocal_address	oncreate
+2150	auth_shibboleth	field_lock_address	unlocked
+2151	auth_shibboleth	field_map_firstnamephonetic	
+2152	auth_shibboleth	field_updatelocal_firstnamephonetic	oncreate
+2153	auth_shibboleth	field_lock_firstnamephonetic	unlocked
+2154	auth_shibboleth	field_map_lastnamephonetic	
+2155	auth_shibboleth	field_updatelocal_lastnamephonetic	oncreate
+2156	auth_shibboleth	field_lock_lastnamephonetic	unlocked
+2157	auth_shibboleth	field_map_middlename	
+2158	auth_shibboleth	field_updatelocal_middlename	oncreate
+2159	auth_shibboleth	field_lock_middlename	unlocked
+2160	auth_shibboleth	field_map_alternatename	
+2161	auth_shibboleth	field_updatelocal_alternatename	oncreate
+2162	auth_shibboleth	field_lock_alternatename	unlocked
+2163	block_accessreview	whattoshow	showboth
+2164	block_accessreview	errordisplay	showint
+2165	block_accessreview	toolpage	errors
+2166	block_activity_results	config_showbest	3
+2167	block_activity_results	config_showbest_locked	
+2168	block_activity_results	config_showworst	0
+2169	block_activity_results	config_showworst_locked	
+2170	block_activity_results	config_usegroups	0
+2171	block_activity_results	config_usegroups_locked	
+2172	block_activity_results	config_nameformat	1
+2173	block_activity_results	config_nameformat_locked	
+2174	block_activity_results	config_gradeformat	1
+2175	block_activity_results	config_gradeformat_locked	
+2176	block_activity_results	config_decimalpoints	2
+2177	block_activity_results	config_decimalpoints_locked	
+2178	block_myoverview	displaycategories	1
+2179	block_myoverview	layouts	card,list,summary
+2180	block_myoverview	displaygroupingallincludinghidden	0
+2181	block_myoverview	displaygroupingall	1
+2182	block_myoverview	displaygroupinginprogress	1
+2183	block_myoverview	displaygroupingpast	1
+2184	block_myoverview	displaygroupingfuture	1
+2185	block_myoverview	displaygroupingcustomfield	0
+2186	block_myoverview	customfiltergrouping	
+2187	block_myoverview	displaygroupingfavourites	1
+2188	block_myoverview	displaygroupinghidden	1
+2189	block_recentlyaccessedcourses	displaycategories	1
+2190	block_section_links	numsections1	22
+2191	block_section_links	incby1	2
+2192	block_section_links	numsections2	40
+2193	block_section_links	incby2	5
+2194	block_section_links	showsectionname	0
+2195	block_starredcourses	displaycategories	1
+2196	block_tag_youtube	apikey	
+2197	format_remuiformat	defaultsectionsummarymaxlength	100
+2198	format_remuiformat	hidegeneralsectionwhenempty	0
+2199	format_remuiformat	remuicourseformat	0
+2200	format_remuiformat	enableusagetracking	1
+2201	format_multitopic	startwday	1
+2202	format_multitopic	weeks_mindays	4
+2203	format_multitopic	weeks_partial	0
+2204	format_multitopic	indentation	1
+2205	format_singleactivity	activitytype	forum
+2206	format_topics	indentation	1
+2207	format_weeks	indentation	1
+2208	fileconverter_googledrive	issuerid	
+2209	enrol_cohort	roleid	5
+2210	enrol_cohort	unenrolaction	0
+2211	enrol_meta	nosyncroleids	
+2212	enrol_meta	syncall	1
+2213	enrol_meta	unenrolaction	3
+2214	enrol_meta	coursesort	sortorder
+2215	enrol_fee	expiredaction	3
+2216	enrol_fee	status	1
+2217	enrol_fee	cost	0
+2218	enrol_fee	currency	USD
+2219	enrol_fee	roleid	5
+2220	enrol_fee	enrolperiod	0
+2221	enrol_database	dbtype	
+2222	enrol_database	dbhost	localhost
+2223	enrol_database	dbuser	
+2224	enrol_database	dbpass	
+2225	enrol_database	dbname	
+2226	enrol_database	dbencoding	utf-8
+2227	enrol_database	dbsetupsql	
+2228	enrol_database	dbsybasequoting	0
+2229	enrol_database	debugdb	0
+2230	enrol_database	localcoursefield	idnumber
+2231	enrol_database	localuserfield	idnumber
+2232	enrol_database	localrolefield	shortname
+2233	enrol_database	localcategoryfield	id
+2234	enrol_database	remoteenroltable	
+2235	enrol_database	remotecoursefield	
+2236	enrol_database	remoteuserfield	
+2237	enrol_database	remoterolefield	
+2238	enrol_database	remoteotheruserfield	
+2239	enrol_database	defaultrole	5
+2240	enrol_database	ignorehiddencourses	0
+2241	enrol_database	unenrolaction	0
+2242	enrol_database	newcoursetable	
+2243	enrol_database	newcoursefullname	fullname
+2244	enrol_database	newcourseshortname	shortname
+2245	enrol_database	newcourseidnumber	idnumber
+2246	enrol_database	newcoursecategory	
+2247	enrol_database	defaultcategory	1
+2248	enrol_database	templatecourse	
+2249	enrol_flatfile	location	
+2250	enrol_flatfile	encoding	UTF-8
+2251	enrol_flatfile	mailstudents	0
+2252	enrol_flatfile	mailteachers	0
+2253	enrol_flatfile	mailadmins	0
+2254	enrol_flatfile	unenrolaction	3
+2255	enrol_flatfile	expiredaction	3
+2256	enrol_guest	requirepassword	0
+2257	enrol_guest	usepasswordpolicy	0
+2258	enrol_guest	showhint	0
+2259	enrol_guest	defaultenrol	1
+2260	enrol_guest	status	1
+2261	enrol_guest	status_adv	
+2262	enrol_imsenterprise	imsfilelocation	
+2263	enrol_imsenterprise	logtolocation	
+2264	enrol_imsenterprise	mailadmins	0
+2265	enrol_imsenterprise	createnewusers	0
+2266	enrol_imsenterprise	imsupdateusers	0
+2267	enrol_imsenterprise	imsdeleteusers	0
+2268	enrol_imsenterprise	fixcaseusernames	0
+2269	enrol_imsenterprise	fixcasepersonalnames	0
+2270	enrol_imsenterprise	imssourcedidfallback	0
+2271	enrol_imsenterprise	imsrolemap01	5
+2272	enrol_imsenterprise	imsrolemap02	3
+2273	enrol_imsenterprise	imsrolemap03	3
+2274	enrol_imsenterprise	imsrolemap04	5
+2275	enrol_imsenterprise	imsrolemap05	0
+2276	enrol_imsenterprise	imsrolemap06	4
+2277	enrol_imsenterprise	imsrolemap07	0
+2278	enrol_imsenterprise	imsrolemap08	4
+2279	enrol_imsenterprise	truncatecoursecodes	0
+2280	enrol_imsenterprise	createnewcourses	0
+2281	enrol_imsenterprise	updatecourses	0
+2282	enrol_imsenterprise	createnewcategories	0
+2283	enrol_imsenterprise	nestedcategories	0
+2284	enrol_imsenterprise	categoryidnumber	0
+2285	enrol_imsenterprise	categoryseparator	
+2286	enrol_imsenterprise	imsunenrol	0
+2287	enrol_imsenterprise	unenrolaction	0
+2288	enrol_imsenterprise	imscoursemapshortname	coursecode
+2289	enrol_imsenterprise	imscoursemapfullname	short
+2290	enrol_imsenterprise	imscoursemapsummary	ignore
+2291	enrol_imsenterprise	imsrestricttarget	
+2292	enrol_imsenterprise	imscapitafix	0
+2293	enrol_manual	expiredaction	1
+2294	enrol_manual	expirynotifyhour	6
+2295	enrol_manual	defaultenrol	1
+2296	enrol_manual	status	0
+2297	enrol_manual	roleid	5
+2298	enrol_manual	enrolstart	4
+2299	enrol_manual	enrolperiod	0
+2300	enrol_manual	expirynotify	0
+2301	enrol_manual	expirythreshold	86400
+2302	enrol_mnet	roleid	5
+2303	enrol_mnet	roleid_adv	1
+2304	enrol_paypal	paypalbusiness	
+2305	enrol_paypal	mailstudents	0
+2306	enrol_paypal	mailteachers	0
+2307	enrol_paypal	mailadmins	0
+2308	enrol_paypal	expiredaction	3
+2309	enrol_paypal	status	1
+2310	enrol_paypal	cost	0
+2311	enrol_paypal	currency	USD
+2312	enrol_paypal	roleid	5
+2313	enrol_paypal	enrolperiod	0
+2314	enrol_lti	emaildisplay	2
+2315	enrol_lti	city	
+2316	enrol_lti	country	
+2317	enrol_lti	timezone	99
+2318	enrol_lti	lang	en
+2319	enrol_lti	institution	
+2320	enrol_self	requirepassword	0
+2321	enrol_self	usepasswordpolicy	0
+2322	enrol_self	showhint	0
+2323	enrol_self	expiredaction	1
+2324	enrol_self	expirynotifyhour	6
+2325	enrol_self	defaultenrol	1
+2326	enrol_self	status	1
+2327	enrol_self	newenrols	1
+2328	enrol_self	groupkey	0
+2329	enrol_self	roleid	5
+2330	enrol_self	enrolperiod	0
+2331	enrol_self	expirynotify	0
+2332	enrol_self	expirythreshold	86400
+2333	enrol_self	longtimenosee	0
+2334	enrol_self	maxenrolled	0
+2335	enrol_self	sendcoursewelcomemessage	1
+2336	filter_urltolink	formats	1,4,0
+2337	filter_urltolink	embedimages	1
+2338	filter_emoticon	formats	1,4,0
+2339	filter_displayh5p	allowedsources	
+2340	filter_mathjaxloader	httpsurl	https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js
+2341	filter_mathjaxloader	texfiltercompatibility	0
+2342	filter_mathjaxloader	mathjaxconfig	\
+MathJax.Hub.Config({\
+    config: ["Accessible.js", "Safe.js"],\
+    errorSettings: { message: ["!"] },\
+    skipStartupTypeset: true,\
+    messageStyle: "none"\
+});\
+
+2343	filter_mathjaxloader	additionaldelimiters	
+2344	filter_tex	latexpreamble	\\usepackage[latin1]{inputenc}\
+\\usepackage{amsmath}\
+\\usepackage{amsfonts}\
+\\RequirePackage{amsmath,amssymb,latexsym}\
+
+2345	filter_tex	latexbackground	#FFFFFF
+2346	filter_tex	density	120
+2347	filter_tex	pathlatex	c:\\texmf\\miktex\\bin\\latex.exe
+2348	filter_tex	pathdvips	c:\\texmf\\miktex\\bin\\dvips.exe
+2349	filter_tex	pathconvert	c:\\imagemagick\\convert.exe
+2350	filter_tex	pathdvisvgm	c:\\texmf\\miktex\\bin\\dvisvgm.exe
+2351	filter_tex	pathmimetex	
+2352	filter_tex	convertformat	gif
+2353	logstore_database	dbdriver	
+2354	logstore_database	dbhost	
+2355	logstore_database	dbuser	
+2356	logstore_database	dbpass	
+2357	logstore_database	dbname	
+2358	logstore_database	dbtable	
+2359	logstore_database	dbpersist	0
+2360	logstore_database	dbsocket	
+2361	logstore_database	dbport	
+2362	logstore_database	dbschema	
+2363	logstore_database	dbcollation	
+2364	logstore_database	dbhandlesoptions	0
+2365	logstore_database	buffersize	50
+2366	logstore_database	jsonformat	1
+2367	logstore_database	logguests	0
+2368	logstore_database	includelevels	1,2,0
+2369	logstore_database	includeactions	c,r,u,d
+2370	logstore_standard	logguests	1
+2371	logstore_standard	jsonformat	1
+2372	logstore_standard	loglifetime	0
+2373	logstore_standard	buffersize	50
+2374	mlbackend_python	useserver	0
+2375	mlbackend_python	host	
+2376	mlbackend_python	port	0
+2377	mlbackend_python	secure	0
+2378	mlbackend_python	username	default
+2379	mlbackend_python	password	
+2380	media_videojs	videoextensions	html_video,media_source,.f4v,.flv
+2381	media_videojs	audioextensions	html_audio
+2382	media_videojs	youtube	1
+2383	media_videojs	videocssclass	video-js
+2384	media_videojs	audiocssclass	video-js
+2385	media_videojs	limitsize	1
+2386	paygw_paypal	surcharge	0
+2387	qtype_multichoice	answerhowmany	1
+2388	qtype_multichoice	shuffleanswers	1
+2389	qtype_multichoice	answernumbering	abc
+2390	qtype_multichoice	showstandardinstruction	0
+2391	editor_atto	toolbar	collapse = collapse\
+style1 = title, bold, italic\
+list = unorderedlist, orderedlist, indent\
+links = link\
+files = emojipicker, image, media, recordrtc, managefiles, h5p\
+accessibility = accessibilitychecker, accessibilityhelper\
+style2 = underline, strike, subscript, superscript\
+align = align\
+insert = equation, charmap, table, clear\
+undo = undo\
+other = html
+2392	editor_atto	autosavefrequency	60
+2393	atto_collapse	showgroups	6
+2394	atto_equation	librarygroup1	\
+\\cdot\
+\\times\
+\\ast\
+\\div\
+\\diamond\
+\\pm\
+\\mp\
+\\oplus\
+\\ominus\
+\\otimes\
+\\oslash\
+\\odot\
+\\circ\
+\\bullet\
+\\asymp\
+\\equiv\
+\\subseteq\
+\\supseteq\
+\\leq\
+\\geq\
+\\preceq\
+\\succeq\
+\\sim\
+\\simeq\
+\\approx\
+\\subset\
+\\supset\
+\\ll\
+\\gg\
+\\prec\
+\\succ\
+\\infty\
+\\in\
+\\ni\
+\\forall\
+\\exists\
+\\neq\
+
+2395	atto_equation	librarygroup2	\
+\\leftarrow\
+\\rightarrow\
+\\uparrow\
+\\downarrow\
+\\leftrightarrow\
+\\nearrow\
+\\searrow\
+\\swarrow\
+\\nwarrow\
+\\Leftarrow\
+\\Rightarrow\
+\\Uparrow\
+\\Downarrow\
+\\Leftrightarrow\
+
+2396	atto_equation	librarygroup3	\
+\\alpha\
+\\beta\
+\\gamma\
+\\delta\
+\\epsilon\
+\\zeta\
+\\eta\
+\\theta\
+\\iota\
+\\kappa\
+\\lambda\
+\\mu\
+\\nu\
+\\xi\
+\\pi\
+\\rho\
+\\sigma\
+\\tau\
+\\upsilon\
+\\phi\
+\\chi\
+\\psi\
+\\omega\
+\\Gamma\
+\\Delta\
+\\Theta\
+\\Lambda\
+\\Xi\
+\\Pi\
+\\Sigma\
+\\Upsilon\
+\\Phi\
+\\Psi\
+\\Omega\
+
+2397	atto_equation	librarygroup4	\
+\\sum{a,b}\
+\\sqrt[a]{b+c}\
+\\int_{a}^{b}{c}\
+\\iint_{a}^{b}{c}\
+\\iiint_{a}^{b}{c}\
+\\oint{a}\
+(a)\
+[a]\
+\\lbrace{a}\\rbrace\
+\\left| \\begin{matrix} a_1 & a_2 \\\\ a_3 & a_4 \\end{matrix} \\right|\
+\\frac{a}{b+c}\
+\\vec{a}\
+\\binom {a} {b}\
+{a \\brack b}\
+{a \\brace b}\
+
+2398	atto_recordrtc	allowedtypes	both
+2399	atto_recordrtc	audiobitrate	128000
+2400	atto_recordrtc	videobitrate	2500000
+2401	atto_recordrtc	audiotimelimit	120
+2402	atto_recordrtc	videotimelimit	120
+2403	atto_table	allowborders	0
+2404	atto_table	allowbackgroundcolour	0
+2405	atto_table	allowwidth	0
+2406	editor_tiny	branding	1
+2407	tiny_equation	librarygroup1	\
+\\cdot\
+\\times\
+\\ast\
+\\div\
+\\diamond\
+\\pm\
+\\mp\
+\\oplus\
+\\ominus\
+\\otimes\
+\\oslash\
+\\odot\
+\\circ\
+\\bullet\
+\\asymp\
+\\equiv\
+\\subseteq\
+\\supseteq\
+\\leq\
+\\geq\
+\\preceq\
+\\succeq\
+\\sim\
+\\simeq\
+\\approx\
+\\subset\
+\\supset\
+\\ll\
+\\gg\
+\\prec\
+\\succ\
+\\infty\
+\\in\
+\\ni\
+\\forall\
+\\exists\
+\\neq\
+
+2408	tiny_equation	librarygroup2	\
+\\leftarrow\
+\\rightarrow\
+\\uparrow\
+\\downarrow\
+\\leftrightarrow\
+\\nearrow\
+\\searrow\
+\\swarrow\
+\\nwarrow\
+\\Leftarrow\
+\\Rightarrow\
+\\Uparrow\
+\\Downarrow\
+\\Leftrightarrow\
+
+2409	tiny_equation	librarygroup3	\
+\\alpha\
+\\beta\
+\\gamma\
+\\delta\
+\\epsilon\
+\\zeta\
+\\eta\
+\\theta\
+\\iota\
+\\kappa\
+\\lambda\
+\\mu\
+\\nu\
+\\xi\
+\\pi\
+\\rho\
+\\sigma\
+\\tau\
+\\upsilon\
+\\phi\
+\\chi\
+\\psi\
+\\omega\
+\\Gamma\
+\\Delta\
+\\Theta\
+\\Lambda\
+\\Xi\
+\\Pi\
+\\Sigma\
+\\Upsilon\
+\\Phi\
+\\Psi\
+\\Omega\
+
+2410	tiny_equation	librarygroup4	\
+\\sum{a,b}\
+\\sqrt[a]{b+c}\
+\\int_{a}^{b}{c}\
+\\iint_{a}^{b}{c}\
+\\iiint_{a}^{b}{c}\
+\\oint{a}\
+(a)\
+[a]\
+\\lbrace{a}\\rbrace\
+\\left| \\begin{matrix} a_1 & a_2 \\\\ a_3 & a_4 \\end{matrix} \\right|\
+\\frac{a}{b+c}\
+\\vec{a}\
+\\binom {a} {b}\
+{a \\brack b}\
+{a \\brace b}\
+
+2411	tiny_recordrtc	allowedtypes	both
+2412	tiny_recordrtc	audiobitrate	128000
+2413	tiny_recordrtc	videobitrate	2500000
+2414	tiny_recordrtc	audiotimelimit	120
+2415	tiny_recordrtc	videotimelimit	120
+2426	tool_mobile	apppolicy	
+2427	tool_mobile	typeoflogin	1
+2428	tool_mobile	qrcodetype	1
+2429	tool_mobile	qrkeyttl	600
+2430	tool_mobile	qrsameipcheck	1
+2431	tool_mobile	forcedurlscheme	moodlemobile
+2432	tool_mobile	minimumversion	
+2433	tool_mobile	autologinmintimebetweenreq	360
+2434	tool_mobile	enablesmartappbanners	0
+2435	tool_mobile	iosappid	633359593
+2436	tool_mobile	androidappid	com.moodle.moodlemobile
+2437	tool_mobile	setuplink	https://download.moodle.org/mobile
+2438	tool_mobile	forcelogout	0
+2439	tool_mobile	disabledfeatures	
+2440	tool_mobile	custommenuitems	
+2441	tool_mobile	filetypeexclusionlist	
+2442	tool_mobile	customlangstrings	
+2443	tool_moodlenet	defaultmoodlenetname	MoodleNet Central
+2444	tool_moodlenet	defaultmoodlenet	https://moodle.net

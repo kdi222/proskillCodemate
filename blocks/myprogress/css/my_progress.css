@@ -1,0 +1,166 @@
+	.block .content .userpicture{
+    height: inherit;
+    width: inherit;
+}
+.myteamblock .cell{
+    vertical-align:middle !important;
+}
+.progress,
+.table{
+    margin: 0 !important;
+}
+div.progress{
+	cursor:pointer;
+}
+
+#myprogress-legend{
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+/*.legend_pie {
+    font-size: 11px;
+    margin-top: 15px;
+    position: absolute;
+    width: 100%;
+    margin-left: -13px;
+    text-align: center;
+}*/
+
+#myprogress-legend a{
+	display:block;
+	text-align:center;
+}
+/**
+* just comment the span styles
+* @autor Hugo S.
+* @since 18/06/2018
+* @paradiso
+* @ticket 21
+*/
+/*
+#myprogress-legend a span{
+	display:inline-block;
+	width:50px;
+	height:15px;
+	margin-right:5px;
+}
+*/
+.block_myprogress .end-block {
+    display: none !important;
+}
+
+
+
+.block_myprogress h2 {
+        font-size: 40px !important;
+    color: #fff !important;
+    font-weight: 800 !important;
+}
+
+
+
+
+#page-course-view-paradisotabs #region-main-wrap .region-content .block_myprogress .header .title h2:before {
+    top: 34px;
+}
+
+.right-column .block_myprogress .content .container-content {
+    padding-left: 9px !important;
+}
+
+#myprogress-legend .legend_bars {
+    height: 15px !important;
+}
+
+.block_myprogress div.
+ext.content{
+    position: relative;
+}
+
+#plms-my-progress-container div.highcharts-container{
+    text-align: center !important;
+    width: 100% !important;
+}
+
+div#myprogress-legend a{
+    /*width: 12%;
+    display: inline-block;
+    height: 12px;*/
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.block_myprogress section.blocks-column div#myprogress-legend{
+    position: absolute;
+    bottom: 20px;
+}
+
+section.has-blocks div#myprogress-legend{
+    margin: 0px;
+    text-align: center;
+}
+
+section.has-blocks div#myprogress-legend div.contend-legend{
+    width: 25%;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+section.has-blocks div#myprogress-legend div.contend-legend a{
+    width: 100%;
+}
+
+.block_myprogress div#myprogress-legend div.contend-legend{
+    display: flex;
+    align-items: center;
+}
+
+.block_myprogress div.legend_pie{
+    padding-left: 12px;
+}
+
+@media (max-width: 544px){
+    section.has-blocks div#myprogress-legend div.contend-legend{
+        width: 50%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .block_myprogress .card-block {
+        overflow-y: hidden !important;
+        overflow-x: hidden !important;
+    }
+    .block_myprogress #plms-my-progress-container {
+        margin-top: -2.9rem !important;
+    }
+    .block_myprogress .table-responsive {
+/*        margin-top: 2rem !important;*/
+    }
+}
+.table td {
+    padding: 0px;
+}
+.block_myprogress .table > tbody > tr > td {
+    padding: 3px !important;
+}
+.block_myprogress .table-responsive {
+    margin-top: 5.5rem;
+    margin-left: -4px;
+}
+.block_myprogress #plms-my-progress-container {
+    width:100%; 
+    height: 148px;
+    margin-top: -1.4rem;
+}
+.block_myprogress .small_circle {
+height: 10px;
+width: 10px;
+border-radius: 50%;
+display: inline-block;
+}
+div#plms-my-progress-container {
+    margin-bottom: -10px;
+}

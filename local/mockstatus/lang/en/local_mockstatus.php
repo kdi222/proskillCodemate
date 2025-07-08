@@ -1,0 +1,23 @@
+<?php
+$string['pluginname'] = 'Mock Status';
+$string['mockstatus'] = 'Mock Status';
+$string['mockstatus:addinstance'] = 'Add a new Mock Status instance';
+$string['mockstatus:manage'] = 'Manage Mock Status';
+$string['mockstatus:navitem'] = 'Mock Status';
+$string['datainserted'] = 'Data inserted successfully';
+$string['type'] = 'Type';
+$string['courseid'] = 'Course ID';
+$string['studentid'] = 'Student ID';
+$string['question'] = 'Question';
+$string['techmark'] = 'Technical Mark';
+$string['communicationmark'] = 'Communication Mark';
+$string['practicalmark'] = 'Practical Mark';
+$string['remark'] = 'Remark';
+$string['activitydate'] = 'Activity Date';
+$string['trainerid'] = 'Trainer ID';
+$string['pract_question'] = 'Practical Question';
+$string['pract_mark'] = 'Practical Mark';
+$string['mark'] = 'Mark';
+$string['addquestion'] = 'Add another question';
+$string['nostudents'] = 'No students enrolled in this course';
+$string['errorfetchingstudents'] = 'Error fetching students';

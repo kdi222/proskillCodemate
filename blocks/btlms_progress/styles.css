@@ -1,0 +1,170 @@
+.block_btlms_progress{
+    max-height:145px !important;
+}
+
+.block_btlms_progress .card-block{
+    padding: 0px !important;
+}
+
+.block_user_profile .card-block {
+    min-height: 400px !important;
+    padding-left: 0px !important;
+    padding-top: 0px !important;
+}
+.block_user_profile .card-block .card-text.content {
+    height: 430px !important;
+    margin-top: -20px;
+}
+.block_user_profile .card {
+    padding-top: 20px;
+    margin: 10px 0 20px 0;
+    border-top-width: 0;
+    border-bottom-width: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.block_user_profile .card .card-heading.image img {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    margin-right: 15px;
+    vertical-align: top;
+    border: 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.block_user_profile .card .card-heading.image .card-heading-header h3 {
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+}
+
+.block_user_profile .card.people .card-info {
+    position: absolute;
+    top: 150px;
+    display: inline-block;
+    width: 100%;
+    height: 101px;
+    overflow: hidden;
+    background: #ffffff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.block_user_profile .card.people .card-info .title {
+    display: block;
+    margin: 8px 14px 0 14px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #404040;
+}
+
+.block_user_profile .card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.block_user_profile .card.hovercard .cardheader {
+    background-size: cover;
+    height: 100px;
+}
+
+.block_user_profile .card.hovercard .avatar {
+    position: relative;
+    top: -50px;
+    margin-bottom: -50px;
+}
+
+.block_user_profile .card.hovercard .avatar img {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+.block_user_profile .desc {
+    color: #989898;
+}
+.block_user_profile .userclass {
+    font-size: 14px;
+    color: #3F3F3F !important;
+}
+.block_user_profile .achive_class {
+    font-size: 14px;
+    text-align: left;
+}
+.block_user_profile .userprofile_icon {
+/*    padding-right: 10px;*/
+    width: 26px;
+    font-size: 16px;
+}
+.block_user_profile .rightname_class {
+    font-size: 14px;
+    text-align: left;
+}
+.block_user_profile .count_no_class{
+    font-size: 14px;
+    
+    text-align: right;
+/*    padding-right: 17px;*/
+}
+.block_user_profile .card-title{
+    display: none;    
+}
+.block_user_profile .block-controls {
+    position: absolute;
+    z-index: 1;
+/*
+    margin-top: 0.5rem;
+    margin-left: 13rem;
+*/
+    right: 6px;
+    top: 5px !important;
+}
+.block_user_profile div.card-block {
+    margin-right: 0px;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 520px){
+    .block_user_profile .count_class {
+        margin-left: 6rem;
+        margin-top: -1.4rem;
+    }
+    .block_user_profile .card-block {
+/*        min-height: 500px !important;*/
+    }
+    .block_user_profile .card-block .card-text.content {
+        height: 500px !important;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 1024px) and (orientation : landscape) {
+    .block_user_profile .count_class {
+/*        margin-top: -1.4rem;*/
+    }
+}
+.block_btlms_progress .card-block .card-text.content .row{
+    height: 180px !important;
+}
+.block_user_profile .card.hovercard{
+    top: 10px !important;
+}

@@ -1,0 +1,2 @@
+1	manual	1	0	0	0	1	guest	$2y$10$fzzwjg3exAs.mRb/uQirM.AqoMSjAkTXGdc6TinixNdMOeSezvGMm		Guest user	 	root@localhost	0								en	gregorian		99	0	0	0	0			0	This user is a special user that allows read-only access to some courses.	1	1	0	2	1	0	0	1707470916	0	\N	\N	\N	\N	\N	\N
+2	manual	1	0	0	0	1	admin	$2y$10$SGy5LcvBtGiZj.NGEVk2mO52l0DpDUL1AgaoRLPwsfQ8R6M7JspHW		Admin	User	predragsystem@gmail.com	0							IN	en	gregorian		Asia/Kolkata	1707472034	1707543023	1707472034	1707542763	0:0:0:0:0:0:0:1		0		1	1	0	0	1	0	0	1707472106	0	\N					\N

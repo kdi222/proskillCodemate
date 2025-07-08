@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="local/mockstatus/db" VERSION="2024052700" COMMENT="Mock Status Plugin">
+    <TABLES>
+        <TABLE NAME="local_mockstatus" COMMENT="Mock status information table">
+            <FIELDS>
+                <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true" COMMENT="Primary key"/>
+                <FIELD NAME="type" TYPE="char" LENGTH="255" NOTNULL="true" COMMENT="Type of mock"/>
+                <FIELD NAME="courseid" TYPE="int" LENGTH="10" NOTNULL="true" COMMENT="Course ID"/>
+                <FIELD NAME="studentid" TYPE="int" LENGTH="10" NOTNULL="true" COMMENT="Student ID"/>
+                <FIELD NAME="question" TYPE="text" NOTNULL="true" COMMENT="Question text"/>
+                <FIELD NAME="techmark" TYPE="int" LENGTH="10" NOTNULL="true" COMMENT="Technical mark"/>
+                <FIELD NAME="communicationmark" TYPE="int" LENGTH="10" NOTNULL="true" COMMENT="Communication mark"/>
+                <FIELD NAME="practquestion" TYPE="text" NOTNULL="true" COMMENT="Question text"/>
+                <FIELD NAME="practicalmark" TYPE="int" LENGTH="10" NOTNULL="true" COMMENT="Practical mark"/>
+                <FIELD NAME="remark" TYPE="text" NOTNULL="true" COMMENT="Trainer's remark"/>
+                <FIELD NAME="activitydate" TYPE="int" LENGTH="10" NOTNULL="true" COMMENT="Date of activity"/>
+                <FIELD NAME="trainerid" TYPE="int" LENGTH="10" NOTNULL="true" COMMENT="Trainer ID"/>
+                 <FIELD NAME="created_date" TYPE="int" LENGTH="10" NOTNULL="false" COMMENT="Date of activity"/>
+            </FIELDS>
+            <KEYS>
+                <KEY NAME="primary" TYPE="primary" FIELDS="id" />
+            </KEYS>
+        </TABLE>
+    </TABLES>
+</XMLDB>

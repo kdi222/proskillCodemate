@@ -1,0 +1,75 @@
+{{!
+    This file is part of Moodle - http://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Moodle is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+}}
+{{!
+    @template block_user_profile/user-profile-view
+
+    Data attributes required for JS:
+    *
+
+    Context variables required for this template:
+    *
+
+    Example context (json):
+    {
+       
+    }
+}}
+<div class="row">
+        <div class="col-md-12">
+            <div class="card user-card">
+                <div class="card-block mt-5">
+                    <div class="user-image">
+                        <img src="{{{profileimageurl}}}" class="img-radius" alt="User-Profile-Image">
+                     
+                    </div>
+                    <h6 class="f-w-600 m-t-10 m-b-10">
+                    <a class="viewprofile" title="{{#str}}view_profile,block_user_profile{{/str}}"
+                href="{{{profileurl}}}">{{{username}}}</a>
+                </h6>
+                    <p class="text-muted">{{{mygroup}}}</p>
+                    <hr>
+                    <p class="text-muted m-t-15">Activity Level: {{{totalPersentage}}}%</p>
+                    <div class="progress-container mb-3">
+                    <div class="student-progress-bar" style="width: {{{totalPersentage}}}%;"></div>
+                    </div>
+                    <h6>{{#str}}achievements,block_user_profile{{/str}}</h6>
+                    <div class="bg-primary counter-block m-t-10 pt-4">
+                    
+                        <div class="row">
+                            <div class="col-4">
+                               <i class="edw-icon edw-icon-Grade"></i>
+                                <p class="mt-1">{{{totalgrade}}} / {{{totalMaxg}}}</p>
+                                <p>My Grade</p>
+                            </div>
+                             <div class="col-4">
+                                <i class="edw-icon edw-icon-Rating-stars_Active xp"></i>
+                                <p class="mt-1">{{{myRank}}}</p>
+                                <p>My Rank</p>
+                            </div>
+                            <div class="col-4 ">
+                                <i class="edw-icon edw-icon-Desktop" aria-hidden="true"></i>
+                                <p class="mt-1">{{{xpnum}}}</p>
+                                <p>My xp Point</p>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>

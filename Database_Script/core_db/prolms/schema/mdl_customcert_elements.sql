@@ -1,0 +1,20 @@
+CREATE TABLE `mdl_customcert_elements` (
+  `id` bigint(10) NOT NULL AUTO_INCREMENT,
+  `pageid` bigint(10) NOT NULL DEFAULT 0,
+  `name` varchar(255) NOT NULL DEFAULT '',
+  `element` varchar(255) NOT NULL DEFAULT '',
+  `data` longtext DEFAULT NULL,
+  `font` varchar(255) DEFAULT NULL,
+  `fontsize` bigint(10) DEFAULT NULL,
+  `colour` varchar(50) DEFAULT NULL,
+  `posx` bigint(10) DEFAULT NULL,
+  `posy` bigint(10) DEFAULT NULL,
+  `width` bigint(10) DEFAULT NULL,
+  `refpoint` smallint(4) DEFAULT NULL,
+  `alignment` varchar(1) NOT NULL DEFAULT 'L',
+  `sequence` bigint(10) DEFAULT NULL,
+  `timecreated` bigint(10) NOT NULL DEFAULT 0,
+  `timemodified` bigint(10) NOT NULL DEFAULT 0,
+  PRIMARY KEY (`id`),
+  KEY `mdl_custelem_pag_ix` (`pageid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=COMPRESSED COMMENT='Stores the elements for a given page'
