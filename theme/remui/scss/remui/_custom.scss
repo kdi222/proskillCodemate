@@ -145,3 +145,14 @@
 .bg-primary{
   background-image: linear-gradient(to right, $brand-primary 0,$brand-primary 30%, $brand-primary 100%);
 }
+
+@media (min-width: 1024px) {
+    .d-lg-none {
+        display: block !important;
+    }
+}
+
+.drawer-left-menu{
+  margin-left: 0px !important;
+  margin-right: 0;
+}
