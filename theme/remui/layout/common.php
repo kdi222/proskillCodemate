@@ -55,7 +55,8 @@ if(!apply_latest_user_pref()){
 }
 
 if (isloggedin()) {
-    $courseindexopen = (get_user_preferences('drawer-open-index', true) == true);
+   // $courseindexopen = (get_user_preferences('drawer-open-index', true) == true);
+    $courseindexopen = true;
     $blockdraweropen = (get_user_preferences('drawer-open-block') == true);
     // Always pinned for quiz and book activity.
     $activities = array("book", "quiz");
