@@ -5,7 +5,7 @@
         padding: 0px !important; 
         box-shadow: none !important;
       
-      
+        
     }
     .multiblock .col-*{
         padding: 0px !important;
@@ -18,9 +18,14 @@
         margin-left: 1rem !important;
         margin-right: 0rem !important;
     }
-    .card-title{
+
+    .block_slider,
+    .block_user_profile {
+      .card-title{
       display: none !important;
     }
+    }
+
     section.block_slider.card {
         position: relative;
         background-image: linear-gradient(to right, $brand-primary 0,$brand-primary 30%, $brand-primary 100%);
@@ -152,7 +157,18 @@
     }
 }
 
-.drawer-left-menu{
-  margin-left: 0px !important;
-  margin-right: 0;
+.block_upcoming_submissions,
+.block_downloadable_items,
+.block_leaderboard {
+      background-color: #fff;
+      padding: 10px;
+      box-shadow: #ddd 0px 0px 6px;
+      border-radius: 10px;
+    
+      .submit-button{
+        height: 3rem;
+        padding: 5px !important;
+      }
 }
+
+
